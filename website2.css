@@ -1,0 +1,1755 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.auto_marg_group {
+  margin: auto;
+}
+
+.no_pddng,
+.dropdown-menu .language_slcting,
+.dropup .dropdown-menu {
+  padding: 0;
+}
+
+.ovflw_hide {
+  overflow: hidden;
+}
+
+.rght_none {
+  right: 0;
+}
+
+.fnt_wgt {
+  font-weight: 200;  
+}
+
+.no_brdr_radis,
+.last_list>.last_list_itmes>.inner_last_list,
+.nav-pills>.nav-item>a,
+.dropdown-menu.tggl_dropdown_menu,
+.governance_drop.open .governance_dropdown,
+.nav-pills>.news_list>.news_list_hvr_contnt,
+.nav-pills>li.active>a  {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+.fnt_thrteen_grp {
+  font-size: 13px;
+}
+
+.fnt_forteen_grp {
+  font-size: 14px;
+}
+
+.hgt_frty_grp {
+  height: 40px;
+}
+
+.colrng_grp {
+  color: #999999;
+}
+
+.white_colr_grp,
+.whte_hvrlink:hover,
+.open > .dropdown-toggle.btn-default:focus,
+.btn-default:active:focus,
+.btn-default.active:focus,
+.btn-default:active.focus,
+.btn-default.active.focus,
+.governance_button:focus .govrnce_headng,
+.open > .dropdown-toggle.btn-default.focus,
+.whte_focs_lnk:focus,
+.full_calendar_contnt:hover .arrw,
+.dropdown-menu>.drop_list>.drop_contnt   {
+  color: #FFFFFF;
+}
+
+.postitiong_grp {
+  position: relative;
+}
+
+.no_background,
+.no_bg_hvr:hover,
+.no_backgrnd:focus,
+.footr_listing,
+.pil_contnt>.nav-item>.pil_items:hover,
+.pil_contnt>.nav-item>.pil_items:focus,
+.nav-pills>.nav-item.active>.second_pil_items,
+.open>.dropdown-toggle.btn-default,
+.open>.dropdown-toggle.btn-default:focus  {
+  background: transparent;  
+}
+
+.no_decortion:hover,
+.closng_icon,
+.news_list_hvr_contnt:hover .news_events_contnt {
+  text-decoration: none;
+}
+
+.uppr_menu {
+  min-height: 40px;
+}
+
+.shoppng_cart,
+.contnt_gov_drop,
+.contnts_drop,
+.menu_tggl_button {
+  font-size: 16px;
+}
+
+.uppr_menu_icons,
+.shoppng_cart {
+  top: 3px;
+}
+
+.inner_uppr_menu {
+  width: 74.9%;
+  padding: 0 18px;
+}
+
+.inner_developmnt {
+  max-width: 24.3%;
+}
+
+.inner_gov {
+  max-width: 22.9%;
+}
+
+.uppr_menu,
+.dropdown-menu {
+  background: #326295;
+}
+
+.dropdown-menu.tggl_dropdown_menu,
+.governance_drop.open .governance_dropdown,
+.total_length {
+  width: 100%;
+}
+
+.tggl_btn {
+  width: 44px;
+  padding: 15px 13px;
+}
+
+.inner_menu_lists {
+  width: 1065px;
+}
+
+.tggl_line,
+.closng_icon,
+.uppr_menu_icons {
+  right: 2px;
+}
+
+.tggl_line {
+  bottom: 6px;
+  height: 3px;
+  margin: 3px 0;
+  background: #FFFFFF;
+}
+
+.last_list {
+  max-width: 18%;
+}
+
+.nav-pills>.mrgn_lstng {
+  margin: 1px 0 0 0;
+}
+
+.nav-pills>.pil_item_videos,
+.nav-pills>.pil_item_photos,
+.nav-pills>.news_list.scnd_hgt.canad_contnt,
+.no_mrgn {
+  margin: 0;  
+}
+
+.governance_button,
+.icon_news_thrd {
+  line-height: 2.4;
+}
+
+.last_list_itmes {
+  width: 24%;
+}
+
+.tggl_contnt {
+  width: 73.2%;
+}
+
+.tggl_drpdwn {
+  width: 41px;
+}
+
+.closng_icon {
+  font: 200 14px/3 'Open Sans', sans-serif; 
+}
+
+.fifa_w_icon {
+  top: 4px;
+}
+
+.hgt_frty_one_grp {
+  height: 41px;
+}
+
+.scnd_lst_tggl {
+  width: 76%;
+}
+
+.scnd_lst_pddng {
+  padding-right: 12px;
+}
+
+.twttr,
+.contnt_lstng {
+  bottom: 1px;
+}
+
+.scnd_lst_news {
+  padding-right: 19px;
+}
+
+.shoppng_cart,
+.scnd_lst_news {
+  right: 1px;
+}
+
+.hgt_frty_two_grp {
+  height: 42px;
+}
+
+.last_grp,
+.gov_grp {
+  padding-left: 1px;
+}
+
+.listng_tggl_contnt {
+  font: 400 14px/6.8 'Open Sans', sans-serif; 
+}
+
+.gap_news {
+  padding-right: 6px;
+}
+
+.second_grp {
+  width: 21%;
+}
+
+.gap_othr {
+  padding-right: 4px;
+}
+
+.opaq_imges:hover,
+.closng_icon:hover {
+  cursor: pointer;
+}
+
+.news_list_hvr_contnt:hover .news_events_contnt,
+.colrng_blue_grp,
+.contnt_color_hvr:hover {
+  color: #5cace5;
+}
+
+.fifa_cup,
+.news_contnt {
+  padding-right: 11px;
+}
+
+.videos_contnt {
+  padding-right: 3px;
+}
+
+.ethics_contnt {
+  line-height: 4.7;
+  padding-right: 9px;
+}
+
+.tggl_btn_othr_list {
+  font: 200 14px 'Open Sans', sans-serif; 
+}
+
+.thrd_lst_grp {
+  width: 23.3%;
+}
+
+.fourt_contnt {
+  width: 20%;
+}
+
+.tggle_englsh_btn {
+  padding: 4px 4px 4px 5px;
+}
+
+.uppr_menu_icons {
+  font-size: 17px;
+}
+
+.tggl_btn:hover,
+.last_list>.last_list_itmes>.colr_grp:hover,
+.last_list>.last_list_itmes>.cart_colr:hover,
+.governance_drop.open .governance_dropdown {
+  background: #2A456E;
+}
+
+.logo {
+  width: 143px;
+  background: url(images/fifacom-logo.png) top left 4px no-repeat;
+}
+
+.navbar-nav>.inner>.innr_middl_lists {
+  line-height: 1.2;
+}
+
+.middle_lists,
+.governance_grp {
+  width: 64%;
+}
+
+.home_grp {
+  height: 58px;
+}
+
+.middle_lists {  
+  display: -webkit-inline-box;
+}
+
+.inner_about {
+  white-space: nowrap;  
+  width: 21.5%;
+}
+
+.innr_middl_lists {
+  right: 8px;
+}
+
+.colr_grp,
+.down_arrw,
+.innr_middl_lists,
+.last_list>.last_list_itmes>.colr_grp:hover {
+  color: #c0cbd9;
+}
+
+.middle_lists >.inner>.innr_middl_lists:hover,
+.middle_lists >.inner>.innr_middl_lists:focus,
+.open > .dropdown-toggle.btn-default:focus,
+.btn-default:active:focus,
+.btn-default.active:focus,
+.btn-default:active.focus,
+.btn-default.active.focus,
+.open>.dropdown-toggle.btn-default.governance_button:hover,
+.open > .dropdown-toggle.btn-default.focus,
+.open>.btn-default,
+.open>.btn-default:focus,
+.open>.btn-default:hover {
+  background-color: transparent;
+}
+
+.last_list>.last_list_itmes>.cart_colr:hover,
+.cart_colr {
+  color: #D7B72B;
+} 
+
+.colr_grp {
+  color: #c0cbd9;  
+}
+
+.shadow_brand,
+.tggl_line {
+  width: 21px;
+}
+
+.middl_contnt_gov {
+  width: 12.3%;
+}
+
+.secnd_gov_list {
+  width: 22%;
+}
+
+.photos_contnt,
+.comp_gov_contnt {
+  line-height: 1.7;
+}
+
+.sharing_contnts,
+.main_inner_content,
+.finance_gov {
+  height: 45px;
+}
+
+.news_icon,
+.player_gov_contnt {
+  line-height: 1.3;
+}
+
+.videos_contnt,
+.disc_gov_contnt {
+  line-height: 1.9;
+}
+
+.dropup .dropdown-menu,
+.page-header {
+  margin-bottom: 0;
+}
+
+.governance_contnt {
+  width: 74.8%;
+}
+
+.gov_heading {
+  bottom: 4px;
+  font-size: 30px;
+}
+
+.gov_heading,
+.gov_heading:hover,
+.news_events_contnt {
+  color: #474747;
+}
+
+.pil_item_news {
+  width: 90px;
+}
+
+.share_contnt {
+  width: 89px;
+  margin-top: 10px;
+  height: 36px;
+}
+
+.pil_item_photos {
+  width: 99px;
+}
+
+.pil_item_videos {
+  width: 98px;
+}
+
+.icon_gap {
+  padding-right: 7px;
+}
+
+.pil_contnt {
+  width: 287px;
+  z-index: -1;
+  border-bottom: 3px solid #d4d4d4;
+}
+
+.pil_contnt>.pil_item_news>.pil_items {
+  padding: 10px 13px;
+}
+
+.pil_contnt>.pil_item_photos>.pil_items {
+  padding: 10px 10px;
+}
+
+.pil_contnt>.pil_item_videos>.pil_items {
+  padding: 10px 12px;
+}
+
+.pil_contnt>.nav-item>.pil_items:focus,
+.pil_contnt>.nav-item>.pil_items:hover {
+  border-bottom: 3px solid #0087e6;
+}
+
+.pil_contnt>.nav-item>.pil_items:hover,
+.up_button {
+  z-index: 10;
+}
+
+.gaps_btween {
+  word-spacing: 2px;
+}
+
+.pil_contnt>.nav-item>.pil_items:focus,
+.pil_contnt>.nav-item>.pil_items:hover,
+.frst_coloring_grp,
+.eight_fifa:hover {
+  color: #0087e6;
+}
+
+.pil_items,
+.inner_gov_box,
+.pil_contnt { 
+  height: 65px;
+}
+
+.pil_items {
+  line-height: 5.3;
+}
+
+.dropdown-menu.tggl_dropdown_menu,
+.up_button {
+  position: fixed;
+}
+
+.dropdown-menu.tggl_dropdown_menu {
+  background-color: #2a466e;
+  margin: 0 auto;
+  top: 40px;
+  border: none;
+  height: 274px;
+}
+
+.fifa_menu_grp {
+  width: 80.6%;
+}
+
+.main_content {
+  background-image: -webkit-linear-gradient(to top, #FFFFFF 0%, #FFFFFF 5%, #FFFFFF 38%, #EFF3F7 58%, #EBEFF4 75%, #EBF0F5 100%);
+  background-image: -moz-linear-gradient(to top, #FFFFFF 0%, #FFFFFF 5%, #FFFFFF 38%, #EFF3F7 58%, #EBEFF4 75%, #EBF0F5 100%);  
+  background-image: linear-gradient(to top, #FFFFFF 0%, #FFFFFF 5%, #FFFFFF 38%, #EFF3F7 58%, #EBEFF4 75%, #EBF0F5 100%);
+  height: 600px;
+}
+
+.follw_contnt {
+  bottom: 3px;
+}
+
+.follw_contnt,
+.share_contnt .share_btn_details,
+.news_lists_heading,
+.bidders_heading {
+  font-size: 11px;
+}
+
+.frst_contnt,
+.bidder_contnt,
+.morocco_contnt,
+.colrng_list_grp {
+  line-height: 1.5;
+}
+
+.frst_event {
+  height: 77px;
+}
+
+.follw_contnt,
+.events_heading,
+.competition_heading,
+.organise_committte,
+.colrng_list_grp {
+  color: #666666;
+}
+
+.share_lists {
+  width: 267px;
+}
+
+.thrd_lstng,
+.share_lists {
+  padding-left: 19px;
+}
+
+.sharing_list_details {
+  line-height: 1.8;
+}
+
+.governance_contnt,
+.share_lists>.follw_contnt {
+  padding-left: 6px;
+}
+
+.share_lists>.share_icons {
+  padding: 2px;
+}
+
+.close_button,
+.share_twttr {
+  font-size: 20px;
+}
+
+.dropdown-menu .language_slcting {
+  border-top: 0;
+  background: #2A456D;
+}
+
+.othr_icons {
+  font-size: 26px;
+}
+
+.twttr,
+.share_youtbe {
+  font-size: 22px;
+}
+
+.share_twttr:hover {
+  color: #00ACEC;
+}
+
+.share_fb:hover {
+  color: #3B5998;
+}
+
+.share_insta:hover {
+  color: #000000;
+}
+
+.share_youtbe:hover {
+  color: #CD201F;
+}
+
+.share_linked:hover {
+  color: #0077B5;
+}
+
+.second_pil_items,
+.nav-pills>.nav-item.active>.second_pil_items { 
+  color: #326295;
+}
+
+.nav>.last_list_itmes,
+.nav-pills>.second_pills+.second_pills {
+  margin-left: 0;
+}
+
+.nav-pills>.nav-item.active>.second_pil_items {
+  border-bottom: 3px solid #0087E6;
+}
+
+.nav>li.second_pil_how>a.second_pil_items {
+  padding: 10px 10px 2px 2px;
+}
+
+.second_pil_how {
+  width: 152px;
+}
+
+.biddng_process_wdth {
+  width: 150px;
+}
+
+.second_pil_competition {
+  width: 137px;
+}
+
+.benefits_bidding_btn,
+.second_pil_disciplinary {
+  width: 131px;
+}
+
+.second_pil_players {
+  width: 243px;
+}
+
+.second_pil_security {
+  width: 108px;
+}
+
+.cntnt_btn_wdth,
+.second_pil_ethics {
+  width: 94px;
+}
+
+.governance_grp,
+.up_button,
+.governance_drop {
+  display: none;
+}
+
+.nav >.governance_drop.open {
+  position: static;
+}
+
+.governance_drop.open .governance_dropdown {
+  display: table;
+  text-align: left;
+  padding: 20px 0;
+  left: 0;
+}
+
+.close_button {
+  left: 1154px;
+  opacity: 1;
+}
+
+.contntss {
+  width: 220px;
+}
+
+.governance_dropdown > li {
+  display: table-cell;
+  height: 50px;
+  line-height: 50px;
+}
+
+.contnts_drop {
+  color: #2876D3;
+}
+
+.share_contnt .share_btn_details {
+  height: 115px;
+}
+
+.inner_main_content,
+.share_contnt .share_btn_details {
+  background: white;
+}
+
+.share_contnt .share_btn_details,
+.full_calendar .full_calendar_contnt,
+.benefits_bidding_wdth .benefits_bidding_cntnt,
+.down_arrw {
+  top: 0;
+}
+
+.share_contnt .share_btn_details,
+.full_calendar .full_calendar_contnt,
+.benefits_bidding_wdth .benefits_bidding_cntnt {
+  width: 108%;
+  -webkit-transform: skew(-20deg);
+  -ms-transform: skew(-20deg);
+   transform: skew(-20deg);
+}
+
+.share_icon {
+  width: 27px;
+  font-size: 19px; 
+  line-height: 2;
+  -webkit-transform: skew(22deg);
+  -moz-transform: skew(22deg);
+  transform: skew(22deg);
+}
+
+.share_icon,
+.governance_dropdown > li  {
+  vertical-align: middle;
+}
+
+.share_txt {
+  -webkit-transform: skew(21deg);
+  -moz-transform: skew(21deg);
+  transform: skew(21deg);
+}
+
+.events_heading {
+  padding-left: 9px;
+}
+
+.frst_contnt {
+  height: 46px;  
+}
+
+.contnt_hgt {
+  height: 10px;
+}
+
+.contnts_events,
+.footr_grp_list,
+.dates_content {
+  font-size: 12px;
+}
+
+.contnts_events {
+  padding-left: 9px;  
+}
+
+.main_inner_content {
+  width: 1058px;
+}
+
+.competition_heading {
+  height: 46px;
+  font-weight: 100;
+}
+
+.inner_main_content {
+  width: 1028px;
+}
+
+.inner_main_box {
+  width: 99%;
+}
+
+.down_arrw {
+  font-size: 10px;
+  left: 7px;
+}
+
+.navbar-nav>li .btn-default.active:focus,
+.navbar-nav>li .btn-default:active:focus,
+.open>.dropdown-toggle.btn-default.governance_button:focus,
+.open>.dropdown-toggle.btn-default.governance_button:hover,
+.open>.dropdown-toggle.btn-default.governance_button,
+.open>.dropdown-toggle.btn-default.governance_button.focus {
+  border-color: #2A456D;
+  border-style: solid;
+  border-left-color: transparent; 
+}
+
+.open > .dropdown-toggle.btn-default:focus,
+.btn-default:active:focus,
+.btn-default.active:focus,
+.btn-default:active.focus,
+.btn-default.active.focus,
+.open > .dropdown-toggle.btn-default.focus {
+  outline: none;
+}
+
+.navbar-nav>li .btn-default.active:focus,
+.navbar-nav>li .btn-default:active:focus,
+.open>.dropdown-toggle.btn-default.governance_button:focus,
+.open>.dropdown-toggle.btn-default.governance_button:hover,
+.open>.dropdown-toggle.btn-default.governance_button,
+.open>.dropdown-toggle.btn-default.governance_button.focus,
+.governance_button {
+  border-width: 0 0 40px 13px;  
+}
+
+.governance_button {
+  width: 132px;
+  right: 18px;
+}
+
+.governance_button,
+.governance_button:focus,
+.governance_button:hover {
+  border-color: transparent;
+}
+
+.govrnce_headng {
+  top: 6px;
+  left: 2px;
+  width: 116px;
+}
+
+.btn.governance_button {
+  padding: 0;  
+}
+
+.btn-default:active:focus,
+.btn-default.active:focus,
+.btn-default:active.focus,
+.btn-default.active.focus,
+.open > .dropdown-toggle.btn-default.focus,
+.open>.dropdown-toggle.btn-default:focus, 
+.open>.dropdown-toggle.btn-default:hover,
+.open>.dropdown-toggle.btn-default,
+.no_bordr {
+  border: 0;
+}
+
+.event_img_grp {
+  height: 397px;
+}
+
+.next_event {
+  color: #999;
+  margin: 8px 1px 8px 0;
+  width: 316px;
+  height: 9px;
+}
+
+.events_list {
+  width: 90.7%;
+  height: 301px;
+}
+
+.full_calendar_wdth {
+  width: 134px;
+}
+
+.intro_wdth {
+  width: 130px;
+}
+
+.intro_contnt {
+  width: 92px;
+}
+
+.benefits_bidding_wdth {
+  width: 169px;
+}
+
+.second_pil_finances,
+.benefits_btn_wdth {
+  width: 113px;
+}
+
+.all_news_wdth {
+  width: 109px;
+}
+
+.all_wdth_btn {
+  width: 68px;
+}
+
+.all_photos_wdth {
+  width: 117px;
+}
+
+.all_photos_wdth_btn {
+  width: 78px;
+}
+
+.full_calendar {
+  height: 38px;
+}
+
+.full_calendar .full_calendar_contnt,
+.news_list:hover,
+.benefits_bidding_wdth .benefits_bidding_cntnt,
+.up_button {
+  background: #F2F2F2;
+}
+
+.full_calendar .full_calendar_contnt {
+  height: 139px;
+}
+
+.benefits_bidding_wdth .benefits_bidding_cntnt {
+  height: 152px;
+}
+
+.next_event_container {
+  padding-right: 14px;
+}
+
+.arrw {
+  line-height: 2.1;
+  width: 20px;
+  -webkit-transform: scale(0.8,-1) rotate(17deg);
+  -moz-transform: scale(0.8,-1) rotate(17deg);
+  transform: scale(0.8,-1) rotate(17deg);
+}
+
+.cntnt_btn {
+  line-height: 2.8;  
+  -webkit-transform: skew(20deg);
+  -moz-transform: skew(20deg);
+  transform: skew(20deg);
+}
+
+.share_btn_details:hover,
+.dropdown-menu>.drop_list>.drop_contnt:hover,
+.up_button:hover,
+.full_calendar_contnt:hover {
+  background: #0087e6;
+}
+
+.colr_brdr {
+  border-bottom-color: #999999;
+  height: 37px;  
+}
+
+.organise_committe_box {
+  height: 72px;
+}
+
+.organise_committe_box,
+.bidding_heading {
+  width: 100.1%;  
+}
+
+.organise_committte,
+.pil_items {
+  font-weight: 400;
+}
+
+.images_contnt {
+  height: 349px;
+}
+
+.headngs {
+  height: 1px;
+}
+
+.lne_hgt_heading_images {
+  line-height: 4.8; 
+}
+
+.headings_images,
+.next_event {
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.secnd_img_grp {
+  padding: 0 11px 0 12px;
+}
+
+.thrd_img_grp {
+  padding: 0 14px 0 9px;
+}
+
+.imges_grp {
+  margin-bottom: 12px;
+}
+
+.opaq_imges:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50); 
+}
+
+.download_fifa_container {
+  height: 79px;
+}
+
+.new_heading {
+  height: 15px;
+}
+
+.benefit_image {
+  height: 178px;
+}
+
+.dominique_box {
+  width: 65.7%;
+}
+
+.dominique_box,
+.photos_box,
+.footr_listing {
+  padding-right: 0;
+}
+
+.footr_listing {
+  line-height: 4.3;
+  width: 85.4%;
+}
+
+.footr_grp_list {
+  color: #6F95B1;
+}
+
+.dominique_image {
+  width: 652px;
+  margin-bottom: 10px;
+}
+
+.side_news_events {
+  width: 340px;
+}
+
+.hgt_news,
+.lngth_grp {
+  height: 83px;
+}
+
+.news_list {
+  width: 356px;
+}
+
+.news_detailing,
+.hgt_news_list {
+  height: 84px;
+}
+
+.scnd_hgt {
+  height: 62px;
+}
+
+.player_gov_contnt,
+.scnd_hgt_news {
+  height: 63px;
+}
+
+.share_txt,
+.social_contnt_list {
+  line-height: 3.2;
+}
+
+.news_list_hvr_contnt {
+  width: 88.9%;
+  border-bottom: 1px solid #E5E5E5;  
+  margin: 0 10px 0 18px;
+}
+
+.nav-pills>.news_list>.news_list_hvr_contnt:hover {
+  background: none;
+}
+
+.bidder_contnt {
+  width: 281px;
+}
+
+.right_arrw_icon {
+  font-size: 18px;
+}
+
+.nav-pills>.news_list>.news_list_hvr_contnt {
+  padding: 10px 4px 10px 0;
+}
+
+.morocco_contnt {
+  width: 288px;
+}
+
+.bidders_heading {
+  height: 16px;
+}
+
+.youtube_icon,
+.eight_fifa,
+.organise_committte {
+  font-size: 24px;
+}
+
+.tggle_englsh_btn,
+.english_btn {
+  height: 26px;
+  line-height: 0.3;
+  width: 110px;  
+}
+
+.english_btn {
+  padding: 4px;
+}
+
+.dropdown-menu>.drop_list>.drop_contnt,
+.drop_list,
+.dates_content {
+  height: 23px;
+}
+
+.all_news {
+  margin: 11px 5px 0 0; 
+}
+
+.all_photos {
+  margin: 2px 15px 0 0; 
+}
+
+.photos_containr {
+  height: 205px;
+}
+
+.photos_wdth {
+  width: 16.6%;
+}
+
+.othr_photo_wdth {
+  width: 16.5%;
+}
+
+.lngth_grp {
+  width: 148px;
+}
+
+.pddng_img_grp {
+  padding-left: 14px;
+}
+
+.pddng_othr_grp {
+  padding-left: 13px;
+}
+
+.lutfi_pddng {
+  padding-left: 12px;
+}
+
+.share_icon,
+.dominique_pddng {
+  padding-left: 11px;
+}
+
+.footer_contnt,
+.footr_inner_content {
+  height: 130px;
+}
+
+.footer_contnt {
+  background: url(images/end_footer.png) left top/ 301px 130px no-repeat,#326295;
+}
+
+.footr_inner_content {
+  width: 74.4%;
+}
+
+.tggl_contnt,
+.footr_inner_content {
+  padding-left: 0;
+}
+
+.footr_listing_contnt {
+  line-height: 4.5;
+}
+
+.footr_listing_contnt:hover,
+.social_heading:hover {
+  color: #d9d9d9;
+}
+
+.gaps_btwn,
+.frst_img_grp,
+.social_heading {
+  padding-right: 8px;
+}
+
+.language_grp {
+  top: 28px;
+}
+
+.btn-default.lang_button {
+  border-color: #8E9CB5;
+}
+
+.btn-group.open .lang_button,
+.lang_button,
+.dropdown-menu {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.open>.lang_button.btn-default, 
+.open>.lang_button.btn-default:focus {
+  border: 1px solid #8E9CB5;
+}
+
+.dropup .dropdown-menu {
+  border-bottom: 0;
+}
+
+.competition_heading,
+.english {
+  line-height: 0.8;
+}
+
+.lang_button:hover {
+  border: 1px solid #8F9DB6;  
+}
+
+.dwn_arrw_icon {
+  padding-right: 2px;
+}
+
+.open>.lang_button.btn-default,
+.open>.lang_button.btn-default:focus,
+.open>.lang_button.btn-default:hover
+.brdr_colr,
+.dropdown-menu {
+  border-color: #8F9DB6;
+}
+
+.dropdown-menu {
+  min-width: 110px;  
+}
+
+.dropdown-menu>.drop_list>.drop_contnt {
+  padding: 2px 0 0 4px;
+}
+
+.lang_menu {
+  height: 96px;
+}
+
+.copyrgt_socil {
+  height: 33px;
+}
+
+.copyrght {
+  line-height: 0.5;
+  color: #8097b9;
+}
+
+.eight_fifa,
+.next_event,
+.lne_hgt_zro {
+  line-height: 0;
+}
+
+.lne_hgt {
+  line-height: 0.1;
+}
+
+.social_contnt {
+  bottom: 18px;
+  right: 5px;
+}
+
+.othr_icons_bottom {
+  font-size: 25px;
+}
+
+.up_button {
+  bottom: 0;
+  width: 80px;
+  height: 80px;
+  opacity: 0.8;
+}
+
+.up_icon {
+  font-size: 35px;
+}
+
+@media only screen and (max-width: 1360px) {  
+  .last_list {
+    max-width: 16%;
+  }
+
+  .second_pil_ethics {
+    width: 8.7%;
+  }
+
+  .footr_listing {
+    width: 95%;
+  }
+}  
+
+@media only screen and (min-device-width : 1000px) and (max-width: 1280px) {  
+  .container,
+  .next_event,
+  .lang_menu,
+  .lang_button {
+    width: 100%;
+  }
+
+  .fnt_frteen_sze {
+    font-size: 11px;
+  }
+
+  .inner_about {
+    width: 23%;
+  }
+
+  .middle_lists, 
+  .governance_grp {
+    width: 57%;
+  }
+
+  .othr_hgt_automatic {
+    height: auto;
+  }
+
+  .innr_middl_lists {
+    right: 0;
+  }
+
+  .fnt_grp {
+    font-size: 12px;
+  }
+
+  .nav>li>.pddng_min {
+    padding: 10px 5px;
+  }
+  
+  .wdth_menu_grp {
+    width: 14%;
+    white-space: nowrap;
+  }
+
+  .second_pil_disciplinary {
+    width: 12%;
+  }
+
+  .second_pil_finances {
+    width: 10%;
+  }
+
+  .second_pil_players {
+    width: 25%;
+  }
+
+  .second_pil_security {
+    width: 11%;
+  }
+
+  .second_pil_ethics {
+    width: 9%;
+  }
+
+  .sharing_contnts {
+    max-width: 98.1%;
+  }
+
+  .inner_main_content {
+    width: 96%;
+  }
+
+  .dominique_box {
+    width: 51%;
+  }
+
+  .footer_contnt {
+    background: url(images/end_footer.png) left top/ 219px 130px no-repeat,#326295;
+  }
+
+  .footr_inner_content {
+    width: 70%;
+  }
+
+  .lang_menu {
+    margin: 0;
+  }
+
+  .footr_listing {
+    width: 79%;
+    position: relative;
+    top: 22px;
+  }
+
+  .footr_listing_contnt {
+    line-height: 0;
+  }
+
+  .footr_listing,
+  .copyrght {
+    line-height: 1;
+  }
+
+  .social_contnt_list {
+    line-height: 3;
+  }
+
+  .twttr {
+    font-size: 20px;
+  }
+
+  .othr_icons_bottom {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .wdth_min_max {
+    width: 100%;
+  }
+
+  .automatic_hgt_minimum,
+  .dropdown-menu>.drop_list>.drop_contnt,
+  .dropdown-menu.tggl_dropdown_menu {
+    height: auto;
+  }
+
+  .fnt_min_sze_grp {
+    font-size: 11px;
+  }
+
+  .no_padng_min {
+    padding: 0;
+  }
+
+  .fnt_sze {
+    font-size: 12px;
+  }
+
+  .no_mrgn_min {
+    margin: 0;
+  }
+
+  .alngmnet_grp {
+    float: right;
+  }
+
+  .fourt_contnt,
+  .governance_grp {
+    width: 35%;
+  }
+
+  .inner_gov_box {
+    padding-bottom: 0;
+  }
+
+  .governance_contnt  {
+    height: 54px;
+  }
+
+  .middle_lists {
+    width: 22%;
+  }
+
+  .navbar-nav>.inner>.innr_middl_lists,
+  .next_event {
+    line-height: 2;
+  }
+
+  .nav>.inner_developmnt,
+  .nav>.inner_gov,
+  .nav>.inner_sustainability,
+  .no_disply {
+    display: none;
+  }
+
+  .gov_heading {
+    font-size: 19px;
+    top: 11px;
+  }
+
+  .nav>.inner_about {
+    width: 12%;
+  }
+
+  .pil_contnt {
+    width: 57%;
+  }
+
+  .pil_contnt,
+  .pil_items {
+    height: 55px;
+  }
+
+  .pil_contnt>.pil_item_photos>.pil_items,
+  .pil_contnt>.pil_item_news>.pil_items,
+  .pil_contnt>.pil_item_videos>.pil_items  {
+    padding: 11px 0;
+  }
+
+  .pil_item_news {
+    width: 30%;
+  }
+
+  .pil_item_photos {
+    width: 36%;
+  }
+
+  .pil_item_videos {
+    width: 34%;
+  }
+
+  .pil_items {
+    line-height: 4.2;
+  }
+  
+  .gaps_btwn {
+    padding-right: 2px;
+  }
+
+  .share_lists {
+    padding-left: 0;
+    width: 72%;
+  }
+
+  .twttr {
+    font-size: 18px;
+  }
+
+  .othr_icons,
+  .competition_heading {
+    font-size: 20px;
+  }
+
+  .share_contnt {
+    max-width: 28%;
+  }
+
+  .events_list {
+    width: 86%;
+  }
+
+  .frst_contnt {
+    line-height: 6;
+    height: 40px;
+  }
+
+  .events_heading {
+    white-space: nowrap;
+  }
+
+  .dropup .dropdown-menu,
+  .fnt_grp_ten {
+    font-size: 10px;    
+  }
+
+  .secnd_img_grp,
+  .thrd_headng,
+  .second_headng,
+  .headings_images {
+    letter-spacing: 0;
+  }
+
+  .intro_contnt {
+    width: 63%;
+  }
+
+  .closing_icon {
+    height: 22px;
+  }
+
+  .frst_lst_tggl {
+    height: 131px;
+  }
+
+  .footr_listing,
+  .frst_lst_tggl,
+  .second_grp {
+    float: left;
+  }
+
+  .dropdown-menu .language_slcting {
+    min-width: 80px;
+  }
+
+  .second_grp {
+    width: 20%;
+  }
+
+  .scnd_lst_tggl,
+  .footr_tggl_button,
+  .thrd_lst_grp {
+    padding-right: 0;
+  }
+
+  .thrd_lst_grp {
+    width: 26%;
+  }
+
+  .fourt_contnt {
+    height: 113px;
+  }
+
+  .navbar-nav .open .dropdown-menu {
+    min-width: 100%;
+    position: fixed;
+    top: 39px;
+  }
+
+  .second_headng,
+  .benefits_bidding_btn,
+  .benefits_btn_wdth,
+  .thrd_headng {
+    line-height: 1;    
+  }
+
+  .second_headng {
+    padding-top: 17px;
+  }
+
+  .benefits_bidding_btn,
+  .benefits_btn_wdth {
+    width: 58%;
+  }
+
+  .benefits_bidding_btn {
+    padding-top: 5px;
+  }
+
+  .thrd_headng {
+    height: 23px;
+    margin-top: 27px;
+  }
+
+  .benefits_btn_wdth {
+    padding-top: 8px;
+  }
+
+  .social_contnt,
+  .news_list_hvr_contnt {
+    width: 91%;
+  }
+
+  .wdth {
+    width: 88%;
+  }
+
+  .all_photos {
+    margin-right: 6px;
+  }
+
+  .navbar-nav .open .dropdown-menu,
+  .footr_listing,
+  .footer_contnt {
+    background: #326295;
+  }
+
+  .lang_button {
+    width: 127%;
+  }
+
+  .dropup .dropdown-menu {
+    min-width: 59px;
+  }
+
+  .copyrght,
+  .first_menu {
+    position: relative;
+  }
+
+  .copyrght {
+    height: 15px;
+    bottom: 18px;
+  }
+
+  .social_contnt {
+    right: 0;
+    bottom: 26px;
+    font-size: 0;
+  }
+
+  .second_grp,
+  .social_heading {
+    font-size: 9px;
+  }
+
+  .othr_icons_bottom {
+    font-size: 17px;
+  }
+
+  .footr_tggl_button {
+    margin-right: 0;
+  }
+
+  .home_grp,
+  .footr_listing_contnt,
+  .footr_tggl_icon {
+    line-height: 0;
+  }
+
+  .home_grp {
+    height: 8px;
+  }
+
+  .intro_contnt,
+  .listng_tggl_contnt {
+    line-height: 3;
+  }
+
+  .first_menu {
+    background: #fff;
+    right: 4px;
+    z-index: 1000;
+  }
+
+  .footr_grp_list {
+    width: 14%;
+    font-size: 4px;
+  }
+
+  .inner_uppr_menu {
+    max-width: 767px;
+  }
+
+  .privacy_grp {
+    width: 17%;
+  }
+
+  .navbar-collapse {
+    border-top: 0; 
+    top: 0;    
+  }
+
+  .navbar-collapse.in {
+    overflow-y: hidden;
+  }
+
+  .footr_listing_contnt {
+    font-size: 5px;
+  }
+
+  .line_hgt {
+    line-height: 1.2;
+  }
+  
+  .language_grp {
+    z-index: 1000;
+  }
+
+  .txt_algnment {
+    text-align: center;
+  }
+}  
+
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+  .governance_button {
+    right: 88px;
+  }
+}
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+  .governance_button {
+    left: 70px;
+  }
+}

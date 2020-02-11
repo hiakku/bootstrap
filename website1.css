@@ -1,0 +1,1304 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+}
+
+.whole_contnt {
+  overflow-x: hidden;
+}
+
+.auto_marg_group {
+  margin: auto;
+}
+
+.alignment_group {
+  float: left;
+}
+
+.second_alignment_group {
+  float: right;
+}
+
+.maximum_length {
+  width: 100%;
+}
+
+.decorating_link {
+  text-decoration: none;
+}
+
+.text_length {
+  font-size: 16px;
+}
+
+.wght_four_hundrd {
+  font-weight: 400;
+}
+
+.lne_link  {
+  line-height: 4.5;
+}
+
+.wght_six_hundred {
+  font-weight: 600;
+}
+
+.box_hgt {
+  height: 70px;	
+}
+
+.algnment_word {
+  text-align: left;
+}
+
+.centering_word {
+  text-align: center;
+}
+
+.wdth_menu_grp {
+  width: 222px;
+}
+
+.coloring_text {
+  color: #9EAEB6;
+}
+
+.link_numbering {
+  border: 1px solid #DDDDDD;
+}
+
+.link_numbering_content_hgt {
+  height: 38px;
+}
+
+.other_coloring_text {
+  color: #011B2A;
+}
+
+.white_coloring_text,
+.whit_links_hver:hover {
+  color: #FFFFFF;
+}
+
+.bordering_grp {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.wdth_two_zero_four_grp  {
+  width: 204px;
+}
+
+.hgt_pricing_abt_devloper_grp {
+  height: 42px;
+}
+
+.pointing_detail:hover {
+  cursor: pointer;
+}
+
+.listing_styling {
+  list-style-type: none;
+}
+
+.hgt_pricng_pvt_prss_artcle_grp {
+  height: 39px;
+}
+
+.displaying_detail {
+  display: inline-block;
+}
+
+.maximum_lngth_hybrid {
+  max-width: 196px;
+}
+
+.abot_activated_grp,
+.developers_grp {
+  padding-left: 18px;
+}
+
+.text_hght_other {
+  font-size: 18px;
+}
+
+.lne_astrk_link_hgt {
+  line-height: 4.2;
+}
+
+.fnt_link {
+  font-size: 24px;
+}
+
+.wghting_text {
+  font-weight: 700;
+}
+
+.mre_wght_txt {
+  font-weight: bold;
+}
+
+.hghting_grp {
+  height: 37px;
+}
+
+.length_line {
+  line-height: 2.2;
+}
+
+.txt_coloring_blck {
+  color: #000000;
+}
+
+.lne_heading {
+  line-height: 5.4;
+}
+
+.colr_grp {
+  color: #8d99a0;
+}
+
+.spce_btwen_leter {
+  letter-spacing: 1px;
+}
+
+.fnt_lngth_elevn {
+  font-size: 11px;
+}
+
+.hgt_twnty_six_grp {
+  height: 26px;
+}
+
+.lne_grp {
+  line-height: 2.7;
+}
+
+.menu_bar {
+  background: rgba(1, 27, 42, 0.9);
+}
+
+.fxd_positioning {
+  position: fixed;
+}
+
+.joyent_logo {
+  left: 16px;
+  width: 140px;  
+}
+
+.joyent_link,
+.about_content {
+  width: 135px;
+}
+
+.heading_hver_drop_detail,
+.tggle_icon {
+  display: none;
+}
+
+.joyent_link {
+  background: url(images/logo_joyent_black.svg) left 9px top 26px no-repeat;  
+}
+
+.bg_colr:hover,
+.sign_link:hover,
+.blog_link:hover,
+.srch_img:hover {
+  background-color: #050607;
+}
+
+.joyent_link:hover {
+  background: url(images/logo_joyent_white.svg) left 9px top 26px no-repeat;
+}
+
+.menu_bar_items {
+  width: 75.1%;
+}
+
+.hybrid_title_heading_length {
+  width: 72%;
+}
+
+.arrow_dtrace_group {
+  width: 76%;
+  line-height: 7.5;
+}
+
+.why_heading {
+  margin-left: 15px;
+  width: 122px;
+}
+
+.about_heading {
+  width: 97px;
+}
+
+.actve_bg_color:hover {
+  background: #050607;
+}
+
+.developers_heading {
+  width: 125px;
+}
+
+.developers_content {
+  height: 193px;
+}
+
+.heading_hver_drop_detail {
+  background: #060808;
+  top: 70px;
+}
+
+.menu_heading:hover .heading_hver_drop_detail {
+  display: block;
+}
+
+.developers_download,
+.developers_doc {
+  line-height: 2.3;
+}
+
+.developers_events,
+.pricing_nodesjs,
+.footer_content_links {
+  line-height: 2;
+}
+
+.pricing_heading {
+  width: 77px;
+}
+
+.pricing_containrpilt_grp {
+  width: 60%;
+}
+
+.pricing_content {
+  height: 154px;
+  width: 14.6%;
+}
+
+.pricing_diffrnce,
+.about_customers,
+.hgt_open_support_link {
+  line-height: 2.8;
+}
+
+.pricing_public_cloud {
+  padding: 0 15px 0 14px;
+}
+
+.pricing_pvt_cloud,
+.arrow_load_balance_group,
+.arrow_containrpilot_group {
+  line-height: 2.4;
+}
+
+.pricing_nodesjs {
+  height: 35px;
+  padding: 0 20px;
+}
+
+.about_content {
+  height: 226px;
+}
+
+.about_details:hover,
+.bckgrnd_menu_grp:hover {	
+  background: #191919;
+}
+
+.ntwrking_security_title,
+.develop_title,
+.inner_dropdown_content {
+  width: 88%;
+}
+
+.total_lngth {
+  width: 85%;
+}
+
+.products_heading_dropdown {
+  height: 366px;
+  left: 0;
+}
+
+.services_group {
+  max-width: 165px;
+}
+
+.max_lngth_service_heading,
+.analytic_heading {
+  width: 198px;
+  font-size: 10px;
+}
+
+.max_lngth_service_heading {
+  line-height: 9.5;
+  height: 66px;
+}
+
+.product_content_links {
+  width: 144px;
+}
+
+.containerpilot_link,
+.cloud_ntwrking_link,
+.load_balance_link  {
+  width: 158px;
+}
+
+.load_balance_link,
+.cloud_ntwrking_link {
+  color: #F7FAFA;
+}
+
+.product_content_heading  {
+  height: 19px;
+}
+
+.cloud_ntwrking_heading {
+  height: 29px;
+}
+
+.cloud_ntwrking_comp {
+  height: 114px;
+}
+
+.clearing_group {
+  clear: both;
+}
+
+.access_comp {
+  height: 52px;
+}
+
+.decorating_link_undrlne:hover {
+  text-decoration: underline;
+}
+
+.dtrace_comp {
+  height: 69px;
+}
+
+.containerpilot_comp {
+  height: 53px;
+}
+
+.signing_menu_items {
+  width: 322px;
+}
+
+.free_trial_link {
+  width: 143px;
+}
+
+.bckgrnd_link_container_grp {
+  background: #e92025;
+  background: -webkit-linear-gradient(left, #e92025 0%,#f5841f 100%);
+  background: -moz-linear-gradient(left, #e92025 0%, #f5841f 100%);
+  background: linear-gradient(to right, #e92025 0%,#f5841f 100%);
+}
+
+.free_trial_link:hover,
+.white_bckgrnd {
+  background: #FFFFFF;
+}
+
+.free_trial_link:hover {
+  color: #EB2E24;
+}
+
+.sign_grp,
+.sign_link  {
+  width: 76px;
+}
+
+.blog_grp,
+.blog_link {
+  width: 56px;
+}
+
+.srch_img {
+  width: 37px;
+}
+
+.srch_link,
+.joyent_logo {
+  position: relative; 
+}
+
+.srch_link {
+  top: 31px;
+  left: 10px;
+}
+
+.reorganized_box {
+  height: 363px;
+}
+
+.reorganized_box,
+.content_main {
+  background:#EEF0F2;
+}
+
+.bckgrnd_middle_press {
+  background: url(images/we_reorganized.png);
+}
+
+.middle_content_details {
+  height: 318px;
+}
+
+.middle_press_details {
+  color: #fdfdfd;
+  font: 300 55px/7 'Open Sans', sans-serif;
+}
+
+.bckgrd_white {
+  background: white;
+}
+
+.page_access_para {
+  width: 55%;
+  height: 186px;
+}
+
+.page_access_para_content {
+  height: 58px;
+}
+
+.srch_content {
+  width: 352px;
+  -webkit-border-radius: 33px;
+  -moz-border-radius: 33px;
+  border-radius: 33px;
+}
+
+.appearing_grp {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.page_content_text {
+  width: 330px;  
+  font-size: 22px;
+  outline: none;
+  padding-left: 20px;
+  background: url(images/search_content.png) right 9px top 8px/ 26px 26px no-repeat, transparent;
+}
+
+.no_brder {
+  border: 0;
+}
+
+.fnt_heading {
+  font-size: 34px;
+}
+
+.supprt_open_doc_container {
+  height: 408px;
+}
+
+.services_link:hover {
+  color: #FF3300;
+}
+
+.support_container {
+  width: 31.8%;
+}
+
+.heading_details,
+.fnt_cntnt {
+  font-size: 28px;
+}
+
+.heading_details {
+  line-height: 3;
+  height: 65px;
+}
+
+.submt_ticket {
+  width: 200px;
+}
+
+.submt_ticket:hover,
+.free_grp:hover {
+  background: #E91D25;
+}
+
+.hlp_desk_link {
+  line-height: 1.7;
+}
+
+.supprt_open_doc_link {
+  color: #FF3400;
+}
+
+.hgt_link_open,
+.contain_pilot_link {
+  line-height: 1.8;
+}
+
+.lngth_container {
+  width: 32%;	
+}
+
+.open_source_container {
+  height: 348px;
+  width: 30.6%;
+}
+
+.doc_container_outer,
+.support_container,
+.documentation_container {
+  height: 320px;
+}
+
+.hybrid_container {
+  background: url(images/explore_back.svg);
+}
+
+.hybrid_subcontainer {
+  height: 834px;
+}
+
+.hybrid_container_heading {
+  color: #283E4A;
+  height: 134px;
+  font-weight: lighter;
+}
+
+.explore_heading {
+  color: #263C49;
+  height: 54px;  
+  line-height: 1;
+}
+
+.comput_store_analyis_container {
+  height: 222px;
+}
+
+.ntwrking_mgt_tools_container {
+  height: 424px;
+}
+
+.compute_container,
+.storage_container,
+.analytics_container {
+  height: 192px;
+}
+
+.ntwrking_security_container,
+.develop_container,
+.managment_container {
+  height: 344px;
+}
+
+.hybrid_title_grp {
+  height: 89px;
+  -webkit-border-radius: 4px 4px 0 0;
+  -moz-border-radius: 4px 4px 0 0;
+  border-radius: 4px 4px 0 0;
+}
+
+.hybrid_title_grp,
+.footer_content {
+  background: #011B2A;
+}
+
+.lne_details_heading {
+  line-height: 3.5;
+}
+
+.hybrid_title_heading_details {
+  color: #EFF1F1;
+  text-align: right;
+  background-color: transparent;
+}
+
+.comput_title {
+  background: url(images/compute.png) left 79px top 12px/ 84px 66px no-repeat;
+}
+
+.storage_title {
+  background: url(images/storage.png) left 83px top 12px/ 90px 60px no-repeat;
+}
+
+.analytics_title {
+  width: 77%;
+  background: url(images/analytics.png) left 83px top 12px/84px 66px no-repeat;
+}
+
+.ntwrking_security_title {
+  background: url(images/networking_security.png) left 26px top 12px/ 63px 68px no-repeat;
+}
+
+.develop_title {
+  background: url(images/developer_tools.png) left 42px top 12px no-repeat;
+}
+
+.managment_title {
+  width: 75%;
+  background: url(images/management.png) left 70px top 12px/ 61px 61px no-repeat;
+}
+
+.hgt_details {
+  height: 103px;
+}
+
+.four_brder_radius_bg {
+  -webkit-border-radius: 0 0 4px 4px;
+  -moz-border-radius: 0 0 4px 4px;
+  border-radius: 0 0 4px 4px;
+  background:	#F6F6F6;
+}
+
+.ntwrking_security_detail,
+.develop_detail,
+.managment_detail {
+  height: 256px;
+}
+
+.sub_container_details_content,
+.documentation_container {
+  width: 90%;
+}
+
+.hgt_heading_copyrght {
+  height: 45px;
+}
+
+.cloud_ntwrking_detail_heading,
+.develop_dtrace_heading,
+.managment_access_heading,
+.security_compliance_comp {
+  height: 51px;
+}
+
+.security_compliance_detail_heading {
+  height: 25px;
+}
+
+.tritn_service_link,
+.comput_detail_content,
+.storage_detail_content,
+.analytics_detail_content {
+  line-height: 1.9;
+}
+
+.cloud_ntwrking_detail_content,
+.security_compliance_detail_content,
+.managment_monitoring_content {
+  width: 103%;
+}
+
+.arrow_grp {
+  font-size: 9px;
+}
+
+.arrow_compute_group {
+  width: 29%;
+}
+
+.arrow_securty_complince_group {
+  width: 50%;
+}
+
+.arrow_load_balance_group {
+  width: 62%;
+}
+
+.access_compute_group {
+  line-height: 7.8;
+}
+
+.arrow_access_grp {
+  width: 82%;
+}
+
+.lne_hgt_arrw_joynt {
+  line-height: 2.5;
+}
+
+.analytics_outer,
+.develop_outer {
+  width: 33%;
+}
+
+.doc_container_outer {
+  width: 34.1%;
+}
+
+.arrow {
+  line-height: 7.9;
+  padding-left: 5px;
+}
+
+.footer_content {
+  height: 610px;
+}
+
+.triton_icon_imge {
+  background: url(images/triton_logo.png) left top 106px no-repeat;
+  height: 170px;
+}
+
+.hybrid_connect_container {
+  height: 116px;
+}
+
+.brder_cntnt {
+  border-bottom: 1px solid #C3C4BB;
+}
+
+.hybrid_content {
+  font-size: 30px;
+  width: 760px;
+  height: 149px;
+}
+
+.connection_links {
+  width: 212px;
+  height: 60px;
+  padding-top: 9px;
+}
+
+.hgt_connction_fill_data {
+  height: 33px;
+}
+
+.connection_lngth {
+  width: 36px;
+}
+
+.linked_in_connection {
+  background: url(images/linked_in.png) left 1px top 1px no-repeat;
+}
+
+.linked_in_connection:hover {
+  background: url(images/linked_in_white.png) left 3px bottom 2px no-repeat;
+}
+
+.facebook_connection  {
+  background: url(images/facebook.png) left 1px top 0 no-repeat;
+}
+
+.facebook_connection:hover {
+  background: url(images/facebook_white.png) left 0  top 0 no-repeat;
+}
+
+.twitter_connection {
+  background: url(images/twitter.png) no-repeat;
+}
+
+.twitter_connection:hover {
+  background: url(images/twitter_white.png) left bottom 1px no-repeat;
+}
+
+.googleplus_connection {
+  background: url(images/google+.png) left top 1px no-repeat;
+}
+
+.googleplus_connection:hover {
+  background: url(images/google+_white.png) left 1px bottom 2px no-repeat;
+}
+
+.instagram_connection {
+  background: url(images/instagram.png) no-repeat;
+}
+
+.instagram_connection:hover {
+  background: url(images/instagram_white.png) no-repeat;
+}
+
+.blog_feed_connection  {
+  width: 32px;
+  background: url(images/blog_feed.png) left top 1px no-repeat;
+}
+
+.blog_feed_connection:hover {
+  background: url(images/blog_feed_white.png) left bottom 1px no-repeat;
+}
+
+.footer_menu_lists {
+  height: 244px;
+}
+
+.open_sorc_grp,
+.document_grp,
+.abt_grp {
+  width: 25%;
+}
+
+.heading_links_size {
+  font-size: 14px;
+}
+
+.copyrght_grp {
+  margin-left: 17px;
+}
+
+.msg_button {
+  width: 68px;
+  background: #EA6E30;
+  right: 20px;
+  bottom: 0;
+  -webkit-border-radius: 7px 7px 0 0; 
+  -moz-border-radius: 7px 7px 0 0; 
+  border-radius: 7px 7px 0 0; 
+}
+
+.analytics_container,
+.develop_container {
+  width: 91%;
+}
+
+.hgt_content_group {
+  height: 47px;
+}
+
+.lne_cntnt_lnk {
+  line-height: 4.4;
+} 
+
+.lne_hgt {
+  line-height: 2.6;
+}
+
+.content_color_grp {
+  color: #aabac1;
+}
+
+.pddng_frst_lnk_pricng {
+  padding-left: 8px;
+}
+
+.abot_activated_grp {
+  padding-left: 12px;
+}
+
+.hgt_frty_four_grp {
+  height: 44px;
+}
+
+.lne_cntnt {
+  line-height: 1.5;
+}
+
+.cloud_ntwrking_detail_content {
+  height: 63px;
+}
+
+.msg_astrik {
+  height: 48px;
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1150px) {
+  .menu_bar_items {
+    width: 70%;
+  }
+
+  .why_heading {
+    width: 100px;
+    margin-left: 11px;
+  }
+
+  .menu_items_link {
+    font-size: 16px;
+  }
+
+  .products_heading {
+    width: 152px;
+  }
+  
+  .developers_heading {
+    width: 112px;
+  }
+
+  .pricing_content {
+    width: 19.6%;
+  }
+  
+  .pricing_heading {
+    width: 60px;
+  }
+
+  .hybrid_title_heading_length,
+  .managment_title {
+    width: 92%;
+  } 
+
+  .ntwrking_security_title {
+    width: 99%;
+    background: url(images/networking_security.png) left 5px top 12px/ 53px 57px no-repeat;
+  }
+
+  .develop_title {
+    width: 98%;
+    background: url(images/developer_tools.png) left 9px top 12px no-repeat;
+  }
+
+  .about_heading {
+    width: 85px;
+  }
+
+  .total_lngth {
+    width: 93%;
+  }
+  
+  .page_access_para_content {
+    height: 71px;
+  }
+
+  .hybrid_content {
+    width: 67%;
+    font-size: 28px;
+  }
+
+  .arrow_compute_group {
+    width: 12%;
+  }
+
+  .arrow_securty_complince_group {
+    width: 37%;
+  }
+
+  .arrow_load_balance_group {
+    width: 52%;
+  }
+  
+  .arrow_access_grp {
+    width: 77%;
+  }
+
+  .wdth_arrw_link_number {
+    width: 63%;
+  }
+
+  .pricing_containrpilt_grp {
+    width: 51%;
+  }
+}  
+
+@media only screen and (min-width: 767px) and (max-width: 1000px) {
+  .text_hght_other {
+    font: 300 15px/5 'Open Sans', sans-serif;
+    white-space: nowrap;
+  }
+
+  .products_heading_dropdown {
+    height: 590px;
+  }
+
+  .maximum_lngth_hybrid {
+    max-width: 25%;
+  }
+
+  .joyent_logo {
+    left: 1px;
+  }
+
+  .menu_bar_items {
+    width: 68%;
+  }
+
+  .why_heading {
+    width: 76px;
+  }
+
+  .products_heading {
+    width: 140px;
+  }
+
+  .developers_heading {
+    width: 81px;
+  }
+
+  .pricing_heading {
+    width: 47px;
+  }
+
+  .about_heading {
+    width: 69px;
+  }
+
+  .sign_grp, 
+  .sign_link {
+    width: 50px;
+  }
+
+  .blog_grp, 
+  .blog_link {
+    width: 30px;
+  }
+
+  .free_trial_link {
+    width: 94px;
+    float: left;
+  }
+
+  .srch_img {
+    display: none;
+  }
+  
+  .pricing_content {
+    width: 24%;
+  }
+
+  .total_lngth {
+    width: 100%;
+  }
+
+  .page_access_para_content {
+    height: 80px;
+  }
+
+  .comput_title {
+    background: url(images/compute.png) left 3px top 12px/84px 66px no-repeat;
+  }
+
+  .analytics_title {
+    background: url(images/analytics.png) left 1px top 12px no-repeat;
+  }
+
+  .storage_title {
+    background: url(images/storage.png) left 9px top 12px/ 90px 60px no-repeat;
+  }
+
+  .ntwrking_security_title,
+  .develop_title {
+    width: 99%;
+    line-height: 4;
+  }
+
+  .ntwrking_security_title{
+    font-size: 21px;
+    background: url(images/networking_security.png) left 0 top 22px no-repeat;
+  }
+
+  .managment_title {
+    width: 92%;
+    background: url(images/management.png) left 2px top 12px/61px 61px no-repeat;
+  }
+
+  .develop_title {
+    font-size: 20px;
+    background: url(images/developer_tools.png) left 0 top 12px no-repeat;
+  }
+
+  .arrow_compute_group {
+    width: 8px;
+  }
+
+  .arrow_securty_complince_group {
+    width: 64px;
+  }
+
+  .arrow_load_balance_group {
+    width: 101px;
+  }
+
+  .submt_ticket_link  {
+    line-height: 3.5;
+  }
+
+  .arrow_dtrace_group {
+    width: 73%;
+  }
+
+  .arrow_access_grp,
+  .arrow_dtrace_group {
+    line-height: 6.5;
+  }
+
+  .arrow_access_grp {
+    width: 164px;
+  }
+
+  .pricing_containrpilt_grp {
+    width: 47%;
+  }
+
+  .wdth_arrw_link_number {
+    width: 132px;
+  }
+
+  .hybrid_content {
+    width: 71%;
+  }
+
+  .hybrid_connect_container {
+    height: 129px;
+  }
+  
+  .text_length {
+    font-size: 14px;
+  }
+
+  .copyrght_grp {
+    width: 96%;
+  }
+}  
+
+@media only screen and (max-width: 767px) {
+  .tggle_icon {
+    display: block;
+    width: 40px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .tggl {
+    color: #85867F;
+    font: 300 24px/3 'Open Sans', sans-serif;
+  }
+
+  .joyent_logo {
+    left: 0;
+  }
+
+  .free_trial_link {
+    line-height: 6;
+    width: 100px;
+  }
+
+  .middle_press_details {
+    font: 300 178%/13 'Open Sans', sans-serif;
+  }
+
+  .free_trial_link,
+  .page_access_para_content {
+    font-size: 14px;
+  }
+
+  .page_access_para_content {
+    height: 45%;
+  }
+
+  .wdth_max_small {
+    width: 100%;
+  }
+
+  .heading_details {
+    font: 300 86%/4.3 'Open Sans', sans-serif;
+  }
+
+  .support_container {
+    width: 29%;
+  }
+
+  .total_lngth {
+    width: 95%;
+  }
+
+  .submt_ticket_link {
+    font: 300 69%/4.5 'Open Sans', sans-serif;    
+  }
+
+  .lngth_fnt {
+    word-break: break-word;
+  }
+
+  .doc_container_outer {
+    width: 37%;
+  }
+
+  .hybrid_container_heading {
+    height: 61px;
+  }
+
+  .hybrid_container_heading,
+  .explore_heading {
+    font-size: inherit;
+  }
+
+  .hybrid_title_heading_details {
+    font: 300 135%/4 'Open Sans', sans-serif;    
+  }
+
+  .lne_hgt_no {
+    line-height: 0;
+  }
+
+  .arrw_grp_small {
+    width: 2%;
+  }
+
+  .lne_hggt {
+    line-height: 2.4;
+  }
+
+  .hgt_automatc {
+    height: auto;
+  }
+
+  .contnt_small {
+    font-size: 70%;
+  }
+
+  .comput_title {
+    background: url(images/compute.png) left 0 top 12px/ 64px 66px no-repeat;
+  }
+
+  .storage_title {
+    background: url(images/storage.png) left 0 top 12px/ 66px 60px no-repeat;
+  }
+
+  .analytics_title {
+    background: url(images/analytics.png) left 0 top 12px/67px 66px no-repeat;
+  }
+
+  .ntwrking_security_title {
+    font: 300 114%/2 'Open Sans', sans-serif;    
+    background: url(images/networking_security.png) left 0 top 12px/ 63px 67px no-repeat;
+  }
+
+  .managment_title {
+    font: 300 98%/5 'Open Sans', sans-serif; 
+    background: url(images/management.png) left 0 top 12px/ 61px 61px no-repeat;
+  }
+
+  .develop_title {
+    line-height: 2.1;
+    background: url(images/developer_tools.png) left 0 top 12px/ 76px 63px no-repeat;
+  }
+
+  .contnt_box {
+    line-height: 1.4;
+  }
+
+  .lngth_fnt,
+  .fnt_contnt,
+  .contnt_box {
+    font-size: 80%;    
+  }
+
+  .fnt_contnt {
+    line-height: 1.6;
+  }
+
+  .menu_bar_items,
+  .footer_menu_lists,
+  .copyrght_grp {
+    display: none;
+  }
+
+  .hybrid_connect_container {
+    height: 386px;
+  }
+
+  .hybrid_content {
+    font-size: 32px;
+    height: 273px;
+  }
+
+  .small_alignmnt_grp {
+    float: left;
+  }
+}

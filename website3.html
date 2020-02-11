@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>About JDC Design Studio</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>       
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <link rel="icon" type="image/x-icon" href="images/jdc_icon.png"/>
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css"/>
+        <link rel="stylesheet" type="text/css" href="website3.css"/>
+        <script>
+            $(document).ready(function () {
+                setTimeout(function(){
+                    $('#prof').fadeIn(100);
+                }, 1000);
+            });
+        </script>
+    </head>
+    <!-- / head -->
+   <body class="no_pddng">
+        <form name="jdc_form" id="jdc_form" method="post">
+            <div class="menu_group bg_grp reltve_positinig">
+                <div class="container-fluid inner_menu">   
+                    <div class="navbar nv_hgt"></div>                              
+                    <div class="row uppr_hgt_grp">
+                        <div class="col-sm-4 pull-left tgggle_contnt">
+                            <a href="#navi" class="tggl_trigger fxd_positioning">
+                                <span class="tggle_icon fxd_positioning"></span>
+                                <svg x="0" y="0" width="54px" height="54px" viewBox="0 0 54 54" class="crcl_svg">
+                                    <circle fill="transparent" stroke="#fff" stroke-width="1" cx="27" cy="27" r="25" stroke-dasharray="157 157" stroke-dashoffset="157" class="contnt"></circle>                                            
+                                </svg>
+                            </a> 
+                            <div id="navi" class="navi no_top_val fxd_positioning bg_grp total_lngth_grp">
+                                <div class="container menu_nav_container auto_marg_group">
+                                    <div class="row navigation_wrapper auto_marg_group">
+                                        <div class="col-sm-6 nav_contnt">
+                                            <div class="uppr_line"></div>
+                                            <h2 class="txt_coloring menu_heading txt_size wght_grp fnt_fmily text-uppercase">menu</h2>
+                                            <ul class="list-group listing_elements_contnt">
+                                                <li class="list-group-item no_pddng colr_contnt no_bordr listing_elements"><a href="#" target="_self" class="hme_work_heading colr_contnt home_heading fmily_fnt navs_heading_contnt headings hvring_decoratng"><i>Home</i></a></li>
+                                                <li class="list-group-item no_pddng colr_contnt no_bordr listing_elements"><a href="#" target="_self" class="hme_work_heading colr_contnt coloring_grp work_heading fmily_fnt navs_heading_contnt headings hvring_decoratng clearfix"><i>Works</i></a></li>
+                                            </ul>
+                                            <ol class="breadcrumb no_pddng transparncy_bg crumb_contnt max_wdth">
+                                              <li><a href="#" target="_self" class="fmily_fnt colr_contnt navs_heading_contnt coloring_grp headings hvring_decoratng"><i>Web</i></a></li>
+                                              <li><a href="#" target="_self" class="fmily_fnt colr_contnt navs_heading_contnt coloring_grp headings hvring_decoratng"><i>Graphics</i></a></li>
+                                              <li><a href="#" target="_self" class="fmily_fnt colr_contnt navs_heading_contnt coloring_grp headings hvring_decoratng"><i>Photo</i></a></li>
+                                            </ol>
+                                            <a href="#" target="_self" class="fmily_fnt navs_heading_contnt txt_coloring abt_heading headings hvring_decoratng"><i>About</i></a>
+                                        </div>
+                                        <!-- / col-md-6 -->
+                                        <div class="col-sm-6 nav_othr">
+                                            <p class="text-right algn_lft hgt_automatic info_heading">
+                                                <a href="#" target="_self" class="info_grp txt_coloring fmily_fnt navs_heading_contnt headings hvring_decoratng"><i>info@jdcdesignstudio.com</i></a>
+                                            </p>
+                                            <p class="text-right colr_contnt coloring_grp fmily_fnt fnt_grp algn_lft numbr_grp">
+                                                <i>+61456915337</i>
+                                            </p>
+                                            <p class="text-right colr_contnt algn_lft australia coloring_grp fmily_fnt fnt_grp">
+                                                <i>NSW, Australia</i>
+                                            </p>
+                                        </div>
+                                        <!-- / col-sm-6 -->
+                                    </div>
+                                    <!-- / navigation_wrapper -->
+                                </div>
+                                <!-- / menu_nav_container -->
+                            </div>
+                            <!-- / navi -->
+                        </div>
+                        <!-- / tgggle_contnt -->
+                        <script>
+                            $(document).ready(function($){
+                                let animations = false;
+                                    $('.tggl_trigger').on('click', function(event){
+                                    event.preventDefault();
+                                    if (!animations) {
+                                        if($(this).parents('.csstransitions').length > 0 ) animations = true; 
+                                        $('body').toggleClass('navigation_is_open');
+                                        $('.navigation_wrapper').one('webkitTransitionEnd moztransitionend transitionend', function(){
+                                            animations = false;
+                                        });
+                                    }
+                                });
+                            });
+                        </script>
+                        <!-- / script -->
+                        <div class="col-sm-4 heading_contnt_grp">
+                            <div class="transparncy_bg heading_box brdrng_grp center-block">
+                                <h1 class="algn_lft heading_grp wght_grp txt_coloring fnt_fmily text-center">JDC</h1>
+                                <p class="text-uppercase text-center design_content txt_coloring">design studio</p>
+                            </div>
+                            <!-- / heading_box -->
+                        </div>
+                        <!-- / heading_contnt_grp -->
+                        <div class="col-sm-4">        
+                            <ul class="list-inline navbar-right icons_contnt">
+                            <li role="presentation"><a href="#" target="_self" class="flckr_design reltve_positinig fnt_fmily txt_coloring pull-right"></a></li> 
+                            <li role="presentation"><a href="#" target="_self" class="linkd_design fnt_fmily txt_coloring side_contnt_details pull-right"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>                             
+                            <li role="presentation"><a href="#" target="_self" class="vmeo_design fnt_fmily txt_coloring side_contnt_details pull-right"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li> 
+                            </ul>   
+                        </div>
+                        <!-- / col-sm-4 -->
+                    </div>
+                    <!-- / row -->
+                    <div class="row clearfix hgt_automatic">
+                        <div class="col-sm-2"></div>
+                        <div class="col-sm-8 abt_web_contnt total_lngth_grp">
+                            <h1 class="text-uppercase text-center about_jdc_headng fnt_fmily txt_coloring animate_top reltve_positinig hgt_automatic">About JDC Design Studio</h1>
+                            <p class="text-center fmily_fnt web_designr_contnt animate_opacity txt_coloring hgt_automatic">
+                                <i>Web Designer, Front-End Developer, Photographer</i>
+                            </p>
+                        </div>
+                        <!-- / abt_web_contnt -->
+                    </div>
+                    <!-- / row -->
+                </div>
+                <!-- / inner_menu -->
+            </div>
+            <!-- / menu_group -->
+            <div class="container">
+                <div class="col-sm-12 profile_grp lngth_grp text-center clearfix">
+                    <img src="images/profile.png" id="prof" class="img-responsive center-block img-circle profile_animate reltve_positinig" alt="profile.png" />
+                </div>
+                <div class="row clearfix main_content auto_marg_group">
+                    <div class="col-sm-8 clearfix about_me_grp">
+                        <h1 class="about_contact_heading cntre_algn wght_grp shrng_abt_contnt fnt_fmily text-uppercase clearfix">About Me</h1>
+                        <p class="fnt_eghteen about_details_contnt colring_scnd_grp text-justify othr_hgt abot_frst_para hgt_automatic">Hello, I’m Jessie Daryl Cacafranca, a Designer and   Front-End Developer specializing in Web Design and Digital Media.</p>
+                        <p class="fnt_eghteen about_details_contnt colring_scnd_grp text-justify othr_hgt abot_second_para hgt_automatic">In 2006, I earned my diploma Major in Multimedia and the Internet at Informatics SM City Cebu which I had an award of being the Best in Multimedia. Since then, I started doing some freelance work with some local clients here in Cebu. After college, I was hired in a web development company; which i hone my skills in terms of concepts, color theory, typography, designs, coding standards, and flexibility.</p>
+                        <p class="fnt_eghteen about_details_contnt colring_scnd_grp text-justify othr_hgt abot_thrd_para hgt_automatic">As for my first job, I did a lot of corporate designs and learned XHTML/CSS. Having experienced from my previous companies, later on I moved on to an entertainment industry with over two years experienced in a related field. The next step of my career was moving to a Danish web development agency as a Web/Graphic Designer and later on promoted to an Acting Project Manager. Furthermore, my career bloomed and relocated to the Middle East working as a Web Designer/Photographer of a major holding company in Saudi Arabia.</p>
+                        <p class="fnt_eghteen about_details_contnt colring_scnd_grp text-justify othr_hgt abot_frth_para hgt_automatic">I always into learning new things when it comes about web. It will be my playground to enhance every aspects as a creative designer.</p>
+                        <p class="fnt_eghteen about_details_contnt colring_scnd_grp text-justify othr_hgt abot_fifth_para hgt_automatic">My portfolio has been nominated and featured by several CSS awards websites including <a href="#" target="_self" class="abt_ffth_para_hvr hvring_decoratng">CSSAWDS.com</a>, <a href="#" target="_self" class="abt_ffth_para_hvr hvring_decoratng">Boostlizer.com</a>, <a href="#" target="_self" class="abt_ffth_para_hvr hvring_decoratng">Awwwards.com</a>, <a href="#" target="_self" class="abt_ffth_para_hvr hvring_decoratng">Bootstrap Expo</a>, <a href="#" target="_self" class="abt_ffth_para_hvr hvring_decoratng">BootCSS Expo</a>, <a href="#" target="_self" class="abt_ffth_para_hvr hvring_decoratng">CSSWinner.com</a>, <a href="#" target="_self" class="abt_ffth_para_hvr hvring_decoratng">CCSDA</a>, <a href="#" target="_self" class="abt_ffth_para_hvr hvring_decoratng">BWDA</a>, <a href="#" target="_self" class="abt_ffth_para_hvr hvring_decoratng">CSSLight.com</a>, <a href="#" target="_self" class="abt_ffth_para_hvr hvring_decoratng">BestCss.in</a>, <a href="#" target="_self" class="abt_ffth_para_hvr hvring_decoratng">BestHTML5Gallery.com</a>, <a href="#" target="_self" class="abt_ffth_para_hvr hvring_decoratng">CSSReel.com</a>, <a href="#" target="_self" class="abt_ffth_para_hvr hvring_decoratng">NiceOneILike.com</a>, <a href="#" target="_self" class="abt_ffth_para_hvr hvring_decoratng">CSSCollector.com</a>, <a href="#" target="_self" class="abt_ffth_para_hvr hvring_decoratng">CSSGarden.co.uk</a>, <a href="#" target="_self" class="abt_ffth_para_hvr hvring_decoratng">CSSNectar.com</a>, <a href="#" target="_self" class="abt_ffth_para_hvr hvring_decoratng">CSS-Fox.com</a></p>
+                    </div>
+                    <!-- / col-sm-8 -->
+                    <div class="col-sm-3 no_mrgn contact_grp text-left auto_marg_group">
+                        <h1 class="about_contact_heading cntre_algn wght_grp abt_contnt_mrgn shrng_abt_contnt fnt_fmily text-uppercase clearfix">contact</h1>  
+                        <div class="form-group form_contnt">
+                            <label for="frst_last_text" class="fnt_eghteen abt_contnt_mrgn frm_headng colring_scnd_grp">Name</label>
+                            <input type="text" name="frst_last_text" id="frst_last_text" class="form-control abt_contnt_mrgn brdr_box_grp frm_grp_box" placeholder="First &amp; Last Name"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="eml_email" class="fnt_eghteen frm_headng colring_scnd_grp abt_contnt_mrgn">Email</label>
+                            <input type="email" name="eml_email" id="eml_email" class="form-control abt_contnt_mrgn brdr_box_grp frm_grp_box" placeholder="example@domain.com"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="msg_textarea" class="fnt_eghteen frm_headng colring_scnd_grp abt_contnt_mrgn">Message</label>
+                            <textarea class="form-control brdr_box_grp frm_grp_box abt_contnt_mrgn" name="msg_textarea" id="msg_textarea" rows="6"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="answr_text" class="fnt_eghteen frm_headng colring_scnd_grp abt_contnt_mrgn">2 + 3 = ?</label>
+                            <input type="text" class="form-control brdr_box_grp frm_grp_box abt_contnt_mrgn" name="answr_text" id="answr_text" placeholder="Your Answer"/>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" name="data_submit" id="data_submit" value="Send" title="Submit" class="btn btn-default abt_contnt_mrgn fnt_fmily brdr_box_grp text-uppercase no_bordr lne_hgt_one btn_grp txt_size txt_coloring btn-lg"/>
+                        </div>
+                    </div>
+                    <!-- / col-sm-3 -->
+                </div> 
+                <!-- / row -->
+            </div>
+            <!-- / container -->
+            <div class="navbar colored_box hgt_automatic othr_hgt">
+                <div class="container center-block colored_box_container text-center">
+                    <ul class="list-inline auto_marg_group listing_contents reltve_positinig innr_disply">
+                        <li class="text-center text-uppercase sharing_cntnt shrng_abt_contnt txt_coloring fnt_fmily pull-left">I'd like to share with you my</li>
+                        <li class="cv_contnt cv_port_contnt brdr_cv_prt brdrng_grp port_cv_details reltve_positinig text-center"><a href="#" target="_self" class="text-uppercase decorting_txt cv_contnt_name cv_port_contnt_name txt_coloring">cv</a></li>
+                        <li class="port_contnt cv_port_contnt brdr_cv_prt brdrng_grp port_cv_details reltve_positinig text-center"><a href="#" target="_self" class="text-uppercase decorting_txt txt_coloring text-center port_contnt_name cv_port_contnt_name">portfolio</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- / colored_box -->
+            <script>
+                let $window = $(window);
+                let $elem = $(".listing_contents");
+                    function isScrolledIntoView($elem, $window) {
+                        let docViewTop = $window.scrollTop();
+                        let docViewBottom = docViewTop + $window.height();
+                        let elemTop = $elem.offset().top;
+                        let elemBottom = elemTop + $elem.height();
+                        return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+                    }
+                $(document).on("scroll", function () {
+                    if (isScrolledIntoView($elem, $window)) {
+                        $elem.addClass("animate_top");
+                    }
+                });
+            </script>
+            <div class="container downwrd_grp">
+                <div class="row no_mrgn last_lst_contnt_details max_wdth hgt_automatic">
+                    <div class="col-sm-4 cntre_algn frst_cntnt_lst_line max_wdth">
+                        <span class="fnt_eghteen fnt_cntnt lne_contnt colring_scnd_grp">2016 &copy;</span>
+                        <span class="text-uppercase fnt_cntnt fnt_eghteen lne_contnt colring_scnd_grp">jdc design studio</span>
+                    </div>
+                    <div class="col-sm-5 mddle_hostd_contnt max_wdth">
+                        <span class="pull-left text-right fnt_eghteen colring_scnd_grp no_pddng cntre_algn hosted_heading max_wdth col-md-3">Hosted by</span>
+                        <span class="webspace_grp col-md-6">
+                            <a href="#" target="_self" class="webspace"><img class="img-responsive webspace_contnt" src="images/webspace.png" alt="webspace.png"/></a>
+                        </span>
+                    </div>
+                    <div class="col-sm-2 last_social_grp max_wdth pull-left">
+                        <ul class="list-inline cntre_algn no_mrgn lst_contnt navbar-right lst_fnt_sze">
+                            <li role="presentation" class="pddng_zro"><a href="#" target="_self" class="pull-right flickr_cntnt reltve_positinig"></a></li> 
+                            <li role="presentation" class="pddng_zro"><a href="#" target="_self" class="pull-right lst_lne_contnt colring_scnd_grp"><i class="fa fa-linkedin fnt_sze" aria-hidden="true"></i></a></li>                             
+                            <li role="presentation" class="pddng_zro"><a href="#" target="_self" class="pull-right lst_lne_contnt vimo_contnt colring_scnd_grp"><i class="fa fa-vimeo vimo" aria-hidden="true"></i></a></li> 
+                        </ul>  
+                    </div>
+                </div>
+                <!-- / last_lst_contnt_details -->
+                <div class="row text-uppercase text-center clearfix auto_marg_group last_cntnt colring_scnd_grp">this is a personal online portfolio, visual playground and testing ground of jessie daryl cacafranca. most of the showcased work were created while working under his past and present full-time employer(s), who solely own the rights to these materials.</div>
+            </div>
+            <!-- / downwrd_grp -->
+            <span class="pull-right top_pge_cntnt fxd_positioning">
+                <button type="button" name="up_button" id="up_button" class="pull-left transparncy_bg no_bordr up_button" onclick="topFunction()">
+                    <img src="images/top_page.png" alt="top_page.png" class="img-responsive"/>
+                </button>
+            </span>
+            <script>
+                window.onscroll = function() {
+                    scrollFunction()
+                };
+                function scrollFunction() {
+                    if (document.body.scrollTop > 380 || document.documentElement.scrollTop > 380) {
+                        document.getElementById("up_button").style.display = "block";
+                    } else {
+                        document.getElementById("up_button").style.display = "none";
+                    }
+                }
+                function topFunction() {
+                    document.body.scrollTop = 0;
+                    document.documentElement.scrollTop = 0;
+                }
+            </script>
+            <!-- / script -->
+        </form>
+        <!-- / form -->
+    </body>
+    <!-- / body -->
+</html>
+<!-- / html -->

@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Competition organisation - FIFA.com</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>	   
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<link rel="icon" type="image/x-icon" href="images/favicon.png"/>
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css"/>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="website2.css"/>
+		<script>
+			window.onscroll = function() {
+				scrollFunction()
+			};
+			function scrollFunction() {
+				if(document.body.scrollTop>150 || document.documentElement.scrollTop>150) {
+					document.getElementById("up_button").style.display = "block";
+				} 
+				else {
+					document.getElementById("up_button").style.display = "none";
+				}
+				if(document.body.scrollTop>105 || document.documentElement.scrollTop>105) {
+					document.getElementById("middle_lists").style.display="none";
+					document.getElementById("governance_drop").style.display="block";
+					document.getElementById("governance_grp").style.display="block";
+				}
+				else {
+					document.getElementById("middle_lists").style.display="inline-flex";
+					document.getElementById("governance_drop").style.display="none";
+					document.getElementById("governance_grp").style.display="none";
+				}
+			}
+			function topFunction() {
+				document.body.scrollTop = 0;
+				document.documentElement.scrollTop = 0;
+			}
+			$(document).ready(function(){
+				$('.icon_close').click(function() {
+					$(this).parents('.dropdown').find('a.dropdown-toggle').dropdown('toggle')		  
+				});
+
+				$('#gov_icon_close').click(function() {
+					$(this).parents('.dropdown').find('button.dropdown-toggle').dropdown('toggle')		  
+				});
+
+				$('.dropdown button.lang_button').on("click", function(e){
+					$(this).next('ul').toggle();
+					e.stopPropagation();
+					e.preventDefault();
+				});
+			});
+		</script>
+		<!-- / script -->
+	</head>
+	<!-- / head -->
+	<body class="no_pddng whole_contnt no_mrgn">
+		<form name="fifa_form" id="fifa_form" method="post">
+			<nav class="navbar navbar-fixed-top no_bordr uppr_menu no_brdr_radis">
+				<div class="wdth_min_max container inner_uppr_menu auto_marg_group">
+					<div class="navbar-header navbar-left pull-left">
+						<div class="dropdown tggl_drpdwn pull-left">
+							<a href="#" target="_self" id="tggl_btn" class="tggl_btn dropdown-toggle hgt_frty_grp navbar-brand pull-left" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+								<div class="tggl_line postitiong_grp"></div>
+								<div class="tggl_line postitiong_grp"></div>
+								<div class="tggl_line postitiong_grp"></div>
+							</a>
+							<ul class="dropdown-menu tggl_dropdown_menu" id="tggl_menu" onClick="event.stopPropagation();">
+								<div class="wdth_min_max container tggl_contnt">
+									<div class="row closing_icon no_mrgn_min">
+										<span class="closng_icon white_colr_grp contnt_color_hvr postitiong_grp pull-right icon_close">&times;</span>
+									</div>
+									<div class="row no_mrgn_min">
+										<div class="col-sm-2 frst_lst_tggl">
+											<li class="list-unstyled"><a href="#" class="fifa_w_grp"><img src="images/fifa_w.png" alt="fifa_w.png" class="img-responsive postitiong_grp fifa_w_icon"/></a></li>
+											<li class="list-unstyled home_grp"><a href="#" class="no_decortion listng_tggl_contnt white_colr_grp contnt_color_hvr fnt_sze" title="Home Page">Home Page</a></li>
+											<li class="btn-group dropdown language_grp no_mrgn pull-left">
+												<button type="button" name="tggle_englsh_btn" id="tggle_englsh_btn" class="btn btn-default no_backgrnd fnt_min_sze_grp lang_button tggle_englsh_btn whte_hvrlink no_bg_hvr no_brdr_radis no_background brdr_colr white_colr_grp whte_focs_lnk whte_hvrlink fnt_thrteen_grp dropdown-toggle" data-toggle="dropdown"> 
+													<span class="pull-left english fnt_forteen_grp white_colr_grp whte_focs_lnk whte_hvrlink fnt_sze">English</span>
+													<i class="fa fa-angle-down pull-right white_colr_grp dwn_arrw_icon" aria-hidden="true"></i>
+												</button>
+												<ul class="dropdown-menu no_mrgn no_brdr_radis language_slcting no_mrgn" role="menu">
+													<li class="automatic_hgt_minimum drop_list"><a href="#" target="_self" class="drop_contnt fnt_sze fnt_forteen_grp">English</a></li>
+													<li class="automatic_hgt_minimum drop_list"><a href="#" target="_self" class="drop_contnt fnt_sze fnt_forteen_grp">Deutsch</a></li>
+													<li class="automatic_hgt_minimum drop_list"><a href="#" target="_self" class="drop_contnt fnt_sze fnt_forteen_grp">Français</a></li>
+													<li class="automatic_hgt_minimum drop_list"><a href="#" target="_self" class="drop_contnt fnt_sze fnt_forteen_grp">Español</a></li>
+													<li class="automatic_hgt_minimum drop_list"><a href="#" target="_self" class="drop_contnt fnt_sze fnt_forteen_grp">عربي</a></li>
+												</ul>
+											</li>
+										</div>
+										<div class="col-sm-2 second_grp no_padng_min text-center">
+											<li class="list-unstyled scnd_lst_news postitiong_grp contnt_lstng wdth_min_max scnd_lst_tggl hgt_frty_one_grp automatic_hgt_minimum"><a href="#" class="no_decortion tggl_btn_othr_list white_colr_grp contnt_color_hvr fnt_sze" title="News"><i class="fa fa-file-o gap_news fnt_forteen_grp" aria-hidden="true"></i>News</a></li>
+											<li class="list-unstyled scnd_lst_pddng hgt_frty_two_grp wdth_min_max scnd_lst_tggl automatic_hgt_minimum"><a href="#" class="no_decortion tggl_btn_othr_list white_colr_grp contnt_color_hvr fnt_sze" title="Photos"><i class="fa fa-camera gap_othr fnt_forteen_grp" aria-hidden="true"></i>Photos</a></li>
+											<li class="list-unstyled scnd_lst_pddng wdth_min_max scnd_lst_tggl hgt_frty_one_grp automatic_hgt_minimum"><a href="#" class="no_decortion tggl_btn_othr_list white_colr_grp contnt_color_hvr fnt_sze" title="Videos"><i class="fa fa-video-camera gap_othr fnt_forteen_grp" aria-hidden="true"></i>Videos</a></li>
+										</div>
+										<div class="col-sm-3 thrd_lst_grp text-left pull-left">
+											<li class="list-unstyled thrd_lstng postitiong_grp contnt_lstng hgt_frty_one_grp automatic_hgt_minimum"><a href="#" title="FIFA World Cup™" class="no_decortion tggl_btn_othr_list white_colr_grp contnt_color_hvr fnt_sze">FIFA World Cup<span>&trade;</span></a></li>
+											<li class="list-unstyled thrd_lstng hgt_frty_two_grp automatic_hgt_minimum"><a href="#" title="FIFA Tournaments" class="no_decortion tggl_btn_othr_list white_colr_grp contnt_color_hvr fnt_sze">FIFA Tournaments</a></li>
+											<li class="list-unstyled thrd_lstng hgt_frty_two_grp automatic_hgt_minimum"><a href="#" title="Women's Football" class="no_decortion tggl_btn_othr_list white_colr_grp contnt_color_hvr fnt_sze">Women's Football</a></li>
+											<li class="list-unstyled thrd_lstng hgt_frty_two_grp automatic_hgt_minimum"><a href="#" title="FIFA Ranking" class="no_decortion tggl_btn_othr_list white_colr_grp contnt_color_hvr fnt_sze">FIFA Ranking</a></li>
+											<li class="list-unstyled thrd_lstng hgt_frty_one_grp automatic_hgt_minimum"><a href="#" title="Live Scores" class="no_decortion tggl_btn_othr_list white_colr_grp contnt_color_hvr fnt_sze">Live Scores</a></li>											
+										</div>
+										<div class="col-sm-2 text-left automatic_hgt_minimum no_pddng fourt_contnt pull-left">
+											<li class="list-unstyled no_pddng postitiong_grp contnt_lstng automatic_hgt_minimum fourt_lstng hgt_frty_one_grp"><a href="#" title="The Best FIFA Football Awards" class="no_decortion tggl_btn_othr_list white_colr_grp contnt_color_hvr fnt_sze">The Best FIFA Football Awards</a></li>				
+											<li class="list-unstyled no_pddng automatic_hgt_minimum fourt_lstng hgt_frty_two_grp"><a href="#" title="Associations" class="no_decortion tggl_btn_othr_list white_colr_grp contnt_color_hvr fnt_sze">Associations</a></li>
+											<li class="list-unstyled no_pddng automatic_hgt_minimum fourt_lstng hgt_frty_one_grp"><a href="#" title="Media" class="no_decortion tggl_btn_othr_list white_colr_grp contnt_color_hvr fnt_sze">Media</a></li>
+										</div>
+										<div class="col-sm-2 text-left automatic_hgt_minimum fifth_lst_grp no_pddng pull-left">
+											<li class="list-unstyled no_pddng postitiong_grp contnt_lstng automatic_hgt_minimum fifth_lstng hgt_frty_one_grp"><a href="#" title="About FIFA" class="no_decortion tggl_btn_othr_list white_colr_grp contnt_color_hvr fnt_sze">About FIFA</a></li>
+											<li class="list-unstyled no_pddng automatic_hgt_minimum fifth_lstng hgt_frty_two_grp"><a href="#" title="Development" class="no_decortion tggl_btn_othr_list white_colr_grp contnt_color_hvr fnt_sze">Development</a></li>
+											<li class="list-unstyled no_pddng automatic_hgt_minimum fifth_lstng hgt_frty_two_grp"><a href="#" title="Governance" class="no_decortion tggl_btn_othr_list white_colr_grp contnt_color_hvr fnt_sze">Governance</a></li>
+											<li class="list-unstyled no_pddng automatic_hgt_minimum fifth_lstng hgt_frty_one_grp"><a href="#" title="Sustainability" class="no_decortion tggl_btn_othr_list white_colr_grp contnt_color_hvr fnt_sze">Sustainability</a></li>											
+										</div>
+									</div>
+								</div> 
+							</ul>
+						</div>
+						<a class="navbar-brand logo hgt_frty_grp" href="#" target="_self"></a>
+					</div>
+					<!-- / navbar-header -->
+					<ul class="nav navbar-nav middle_lists alngmnet_grp hgt_frty_grp pull-left navbar-left auto_marg_group" id="middle_lists">
+						<li class="col-sm-3 inner inner_about"><a href="#" target="_self" class="innr_middl_lists fnt_sze fnt_forteen_grp hgt_frty_grp fnt_sze whte_hvrlink whte_focs_lnk" title="About FIFA">About FIFA</a></li>
+						<li class="col-sm-3 inner no_disply inner_developmnt"><a href="#" target="_self" class="innr_middl_lists fnt_forteen_grp hgt_frty_grp whte_hvrlink fnt_sze whte_focs_lnk no_disply" title="Development">Development</a></li>
+						<li class="col-sm-3 inner no_disply inner_gov"><a href="#" target="_self" class="innr_middl_lists fnt_forteen_grp hgt_frty_grp whte_hvrlink fnt_sze whte_focs_lnk no_disply" title="Governance">Governance</a></li>
+						<li class="col-sm-3 inner no_disply inner_sustainability"><a href="#" target="_self" class="innr_middl_lists fnt_forteen_grp hgt_frty_grp fnt_sze whte_hvrlink whte_focs_lnk no_disply" title="Sustainability">Sustainability</a></li>
+					</ul>
+					<!-- / navbar-nav -->
+					<ul class="nav navbar-nav no_mrgn_min no_disply alngmnet_grp governance_grp" id="governance_grp">
+						<li class="dropdown governance_drop no_bordr rght_none hgt_frty_grp middle_lists alngmnet_grp pull-left navbar-left auto_marg_group" id="governance_drop">
+							<button type="button" name="governance_button" id="governance_button" class="btn btn-default no_bg_hvr no_backgrnd hgt_frty_grp no_brdr_radis whte_hvrlink no_bg_hvr dropdown-toggle no_background postitiong_grp governance_button alngmnet_grp" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+								<div class="innr_middl_lists whte_hvrlink postitiong_grp hgt_frty_grp govrnce_headng fnt_sze" title="Governance">Governance
+									<span class="glyphicon glyphicon-menu-down down_arrw"></span>									
+								</div>
+							</button>
+							<ul class="dropdown-menu tggl_dropdown_menu" id="gov_tggl_menu" onClick="event.stopPropagation();">
+								<div class="wdth_min_max container tggl_contnt">
+									<div class="row no_mrgn_min">
+										<span class="closng_icon white_colr_grp contnt_color_hvr postitiong_grp pull-right" id="gov_icon_close">&times;</span>
+									</div>
+									<div class="row no_mrgn_min">
+										<div class="col-sm-4 text-right wdth_min_max max_wdth automatic_hgt_minimum">
+											<li class="list-unstyled txt_algnment line_hgt wdth_min_max max_wdth automatic_hgt_minimum news_contnt contn_gov_dropdwn_list hgt_frty_two_grp"><a href="#" class="gov_dropdown_lists line_hgt fnt_sze no_decortion colrng_blue_grp contnt_gov_drop whte_hvrlink" title="News"><i class="fa fa-file-o gap_news fnt_forteen_grp" aria-hidden="true"></i>News</a></li>
+											<li class="list-unstyled txt_algnment line_hgt wdth_min_max max_wdth automatic_hgt_minimum photos_contnt contn_gov_dropdwn_list hgt_frty_two_grp"><a href="#" class="gov_dropdown_lists line_hgt fnt_sze no_decortion colrng_blue_grp contnt_gov_drop whte_hvrlink" title="Photos"><i class="fa fa-camera gap_othr fnt_forteen_grp" aria-hidden="true"></i>Photos</a></li>
+											<li class="list-unstyled txt_algnment line_hgt wdth_min_max max_wdth automatic_hgt_minimum videos_contnt contn_gov_dropdwn_list hgt_frty_two_grp"><a href="#" class="gov_dropdown_lists line_hgt fnt_sze no_decortion colrng_blue_grp contnt_gov_drop whte_hvrlink" title="Videos"><i class="fa fa-video-camera gap_othr fnt_forteen_grp" aria-hidden="true"></i>Videos</a></li>
+											<li class="list-unstyled txt_algnment line_hgt wdth_min_max max_wdth automatic_hgt_minimum ethics_contnt contn_gov_dropdwn_list hgt_frty_two_grp"><a href="#" title="Ethics" class="gov_dropdown_lists line_hgt fnt_sze no_decortion colrng_blue_grp contnt_gov_drop whte_hvrlink">Ethics</a></li>															
+										</div>
+										<div class="col-sm-2 middl_contnt_gov no_disply automatic_hgt_minimum"></div>
+										<div class="col-sm-4 text-left wdth_min_max max_wdth secnd_gov_list automatic_hgt_minimum">
+											<li class="list-unstyled txt_algnment line_hgt wdth_min_max max_wdth automatic_hgt_minimum contn_gov_dropdwn_list hgt_frty_two_grp"><a href="#" title="How FIFA Works" class="gov_dropdown_lists line_hgt fnt_sze no_decortion colrng_blue_grp contnt_gov_drop whte_hvrlink">How FIFA Works</a></li>				
+											<li class="list-unstyled txt_algnment line_hgt wdth_min_max max_wdth automatic_hgt_minimum comp_gov_contnt contn_gov_dropdwn_list hgt_frty_two_grp"><a href="#" title="Competition" class="gov_dropdown_lists line_hgt fnt_sze no_decortion colrng_blue_grp contnt_gov_drop whte_hvrlink">Competition</a></li>
+											<li class="list-unstyled txt_algnment line_hgt wdth_min_max max_wdth automatic_hgt_minimum disc_gov_contnt contn_gov_dropdwn_list hgt_frty_two_grp"><a href="#" title="Disciplinary" class="gov_dropdown_lists line_hgt fnt_sze no_decortion colrng_blue_grp contnt_gov_drop whte_hvrlink">Disciplinary</a></li>
+										</div>
+										<div class="col-sm-2 text-left wdth_min_max max_wdth gov_grp automatic_hgt_minimum no_pddng fifth_lst_grp pull-left">
+											<li class="list-unstyled txt_algnment line_hgt wdth_min_max max_wdth automatic_hgt_minimum finance_gov"><a href="#" title="Finances" class="gov_dropdown_lists line_hgt fnt_sze no_decortion colrng_blue_grp contnt_gov_drop whte_hvrlink">Finances</a></li>
+											<li class="list-unstyled txt_algnment line_hgt wdth_min_max max_wdth automatic_hgt_minimum player_gov_contnt"><a href="#" title="Players’ Status and Transfers" class="gov_dropdown_lists line_hgt fnt_sze no_decortion colrng_blue_grp contnt_gov_drop whte_hvrlink">Players’ Status and Transfers</a></li>
+											<li class="list-unstyled txt_algnment line_hgt wdth_min_max max_wdth automatic_hgt_minimum secur_gov_contnt contn_gov_dropdwn_list hgt_frty_two_grp"><a href="#" title="Security" class="gov_dropdown_lists line_hgt fnt_sze no_decortion colrng_blue_grp contnt_gov_drop whte_hvrlink">Security</a></li>											
+										</div>
+									</div>
+								</div> 
+							</ul>
+						</li>
+					</ul>
+					<!-- / governance_grp -->
+					<div class="col navbar-left shadow_brand pull-left no_disply hgt_uppr_top hgt_frty_grp" id="shadow_brand">
+						<img src="images/brand-shadow.png" alt="brand-shadow.png" class="img-responsive fixed-top hgt_frty_grp hgt_uppr_top"/>
+					</div>
+					<ul class="nav nav-pills navbar-right no_disply last_list hgt_frty_grp">
+						<li class="nav-item last_list_itmes text-right"><a href="#" target="_self" class="inner_last_list hgt_frty_grp colr_grp"><span class="glyphicon glyphicon-calendar uppr_menu_icons" aria-hidden="true"></span></a></li>
+						<li class="nav-item last_list_itmes text-right"><a href="#" target="_self" class="inner_last_list hgt_frty_grp cart_colr"><span class="glyphicon glyphicon-shopping-cart shoppng_cart" aria-hidden="true"></span></a></li>
+						<li class="nav-item last_list_itmes text-right"><a href="#" target="_self" class="inner_last_list hgt_frty_grp colr_grp"><span class="glyphicon glyphicon-search shoppng_cart" aria-hidden="true"></span></a></li>
+						<li class="nav-item last_list_itmes text-right"><a href="#" target="_self" class="inner_last_list hgt_frty_grp colr_grp"><i class="fa fa-user uppr_menu_icons" aria-hidden="true"></i></a></li>
+					</ul>
+					<!-- / nav-pills -->
+				</div>
+				<!-- / inner_uppr_menu -->
+			</nav>
+			<!-- / uppr_menu -->
+			<div class="page-header automatic_hgt_minimum inner_gov_box">
+				<div class="wdth_min_max container auto_marg_group no_padng_min governance_contnt">
+					<h1 class="pull-left"><a href="#" target="_self" class="text-center fnt_wgt gov_heading no_decortion postitiong_grp pull-left">Governance</a></h1>
+					<ul class="nav nav-pills navbar-right pil_contnt alngmnet_grp">
+						<li class="nav-item pil_item_news hgt_frty_two_grp"><a class="nav-link pil_items fnt_sze fnt_thrteen_grp frst_coloring_grp" href="#" title="News"><i class="fa fa-file-o fnt_sze fnt_thrteen_grp icon_gap" aria-hidden="true"></i>News</a></li>
+						<li class="nav-item pil_item_photos"><a class="nav-link pil_items fnt_sze fnt_thrteen_grp frst_coloring_grp" href="#" title="Photos"><i class="fa fa-camera fnt_sze fnt_thrteen_grp gaps_btwn" aria-hidden="true"></i>Photos</a></li>
+						<li class="nav-item pil_item_videos"><a class="nav-link pil_items fnt_sze fnt_thrteen_grp frst_coloring_grp" href="#" title="Videos"><i class="fa fa-video-camera fnt_sze fnt_thrteen_grp icon_gap" aria-hidden="true"></i>Videos</a></li>
+					</ul>
+				</div>
+				<!-- / governance_contnt -->
+			</div>
+			<!-- / inner_gov_box -->
+			<div class="wdth_min_max container auto_marg_group hgt_frty_grp fifa_menu_grp">
+				<button type="button" name="menu_tggl_button" id="menu_tggl_button" class="navbar-toggle menu_tggl_button no_pddng pull-left" data-toggle="collapse" data-target="#first_menu">
+					<i class="fa fa-bars colrng_grp" aria-hidden="true"></i>
+				</button>
+				<ul class="nav nav-pills collapse navbar-collapse no_mrgn_min first_menu" id="first_menu">
+					<li class="nav-item second_pills wdth_menu_grp wdth_min_max max_wdth second_pil_how"><a data-toggle="pill" class="nav-link second_pil_items fnt_forteen_grp hgt_frty_grp pddng_min fnt_grp fnt_sze text-center" href="#" title="How FIFA Works">How FIFA Works</a></li>
+					<li class="nav-item second_pills wdth_menu_grp wdth_min_max max_wdth active second_pil_competition"><a data-toggle="pill" class="nav-link fnt_forteen_grp hgt_frty_grp pddng_min fnt_grp fnt_sze second_pil_items text-center" href="#" title="Competition">Competition</a></li>
+					<li class="nav-item second_pills wdth_min_max max_wdth second_pil_disciplinary"><a data-toggle="pill" class="nav-link fnt_forteen_grp hgt_frty_grp fnt_grp pddng_min fnt_sze second_pil_items text-center" href="#" title="Disciplinary">Disciplinary</a></li>		
+					<li class="nav-item second_pills wdth_min_max max_wdth second_pil_finances"><a data-toggle="pill" class="nav-link fnt_forteen_grp hgt_frty_grp fnt_grp pddng_min fnt_sze second_pil_items text-center" href="#" title="Finances">Finances</a></li>		
+					<li class="nav-item second_pills wdth_min_max max_wdth second_pil_players"><a data-toggle="pill" class="nav-link fnt_forteen_grp hgt_frty_grp fnt_grp pddng_min fnt_sze second_pil_items text-center" href="#" title="Players’ Status and Transfers">Players’ Status and Transfers</a></li>		
+					<li class="nav-item second_pills wdth_min_max max_wdth second_pil_security"><a data-toggle="pill" class="nav-link fnt_forteen_grp hgt_frty_grp fnt_grp pddng_min fnt_sze second_pil_items text-center" href="#" title="Security">Security</a></li>		
+					<li class="nav-item second_pills wdth_min_max max_wdth second_pil_ethics"><a data-toggle="pill" class="nav-link fnt_forteen_grp hgt_frty_grp fnt_grp pddng_min fnt_sze second_pil_items text-center" href="#" title="Ethics">Ethics</a></li>		
+				</ul>
+				<!-- / nav-pills -->
+			</div>
+			<!-- / inner_menu_lists -->
+			<div class="main_content total_length clearfix">
+				<div class="wdth_min_max container clearfix auto_marg_group no_padng_min main_inner_content">
+					<div class="sharing_contnts">
+						<ul class="list-inline pull-left share_lists">
+							<li class="list-item follw_contnt postitiong_grp fnt_grp fnt_sze">Follow us on</li>
+							<li class="list-item share_icons"><a href="#" target="_self" class="sharing_list_details colrng_grp share_twttr"><i class="fa fa-twitter postitiong_grp twttr" aria-hidden="true"></i></a></li>
+							<li class="list-item share_icons"><a href="#" target="_self" class="sharing_list_details colrng_grp othr_icons share_fb"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+							<li class="list-item share_icons"><a href="#" target="_self" class="sharing_list_details colrng_grp othr_icons share_insta"><i class="fa fa-instagram insta" aria-hidden="true"></i></a></li>
+							<li class="list-item share_icons"><a href="#" target="_self" class="sharing_list_details colrng_grp share_youtbe"><i class="fa fa-youtube youtube" aria-hidden="true"></i></a></li>
+							<li class="list-item share_icons"><a href="#" target="_self" class="sharing_list_details colrng_grp othr_icons share_linked"><i class="fa fa-linkedin-square linked" aria-hidden="true"></i></a></li>
+						</ul>
+						<!-- / share_lists -->
+						<div class="share_contnt ovflw_hide rght_none postitiong_grp frst_coloring_grp text-center pull-right">
+							<a href="#" target="_self" class="share_btn_details rght_none postitiong_grp whte_hvrlink frst_coloring_grp pull-right"><i class="fa fa-share-alt share_icon pull-left" aria-hidden="true"></i><div class="share_txt pull-left text-center">Share</div></a>
+						</div>
+					</div>
+					<!-- / sharing_contnts -->
+				</div>
+				<!-- / main_inner_content -->
+				<div class="inner_main_content auto_marg_group">
+					<div class="wdth_min_max container inner_main_box auto_marg_group">
+						<h1 class="competition_heading">Competition organisation</h1>
+						<div class="row othr_hgt_automatic event_img_grp">
+							<div class="col-sm-8 pull-left fifa_cup">
+								<img src="images/fifa_world_cup_trophy.jpg" alt="fifa_world_cup_trophy.jpg" class="trophy pull-left img-responsive" title="FIFA World Cup trophy"/>
+							</div>				
+							<div class="col-sm-4 pull-left wdth_min_max next_event_container">
+								<h5 class="pull-right wdth_min_max next_event fnt_forteen_grp">NEXT EVENTS</h5>
+								<ul class="list-group events_list othr_hgt_automatic auto_marg_group">
+									<li class="list-item othr_hgt_automatic colrng_list_grp fnt_sze frst_event">
+										<h4 class="events_heading fnt_sze othr_hgt_automatic fnt_forteen_grp frst_contnt">FIFA Beach Soccer World Cup Bahamas 2017</h4>
+										<span class="contnts_events colrng_grp">27 Apr 2017 - 07 May 2017 - Bahamas</span>
+									</li>
+									<li class="list-item othr_hgt_automatic colrng_list_grp fnt_sze">
+										<h4 class="events_heading fnt_sze othr_hgt_automatic fnt_forteen_grp contnt_hgt">FIFA U-20 World Cup Korea Republic 2017</h4>
+										<span class="contnts_events colrng_grp">20 May 2017 - 11 Jun 2017 - Korea Republic</span>
+									</li>
+									<li class="list-item othr_hgt_automatic colrng_list_grp fnt_sze">
+										<h4 class="events_heading fnt_sze othr_hgt_automatic fnt_forteen_grp contnt_hgt">FIFA Confederations Cup Russia 2017</h4>
+										<span class="contnts_events colrng_grp">17 Jun 2017 - 02 Jul 2017 - Russia</span>
+									</li>
+									<li class="list-item othr_hgt_automatic colrng_list_grp fnt_sze">
+										<h4 class="events_heading fnt_sze othr_hgt_automatic fnt_forteen_grp contnt_hgt">FIFA U-17 World Cup India 2017</h4>
+										<span class="contnts_events colrng_grp">06 - 28 October 2017 - India</span>
+									</li>
+									<li class="list-item othr_hgt_automatic colrng_list_grp fnt_sze">
+										<h4 class="events_heading fnt_sze othr_hgt_automatic fnt_forteen_grp contnt_hgt">FIFA Club World Cup UAE 2017</h4>
+										<span class="contnts_events colrng_grp">06 - 16 December 2017 - United Arab Emirates</span>
+									</li>
+								</ul>
+								<div class="pull-right full_calendar ovflw_hide rght_none postitiong_grp frst_coloring_grp full_calendar_wdth text-center">
+									<a href="#" target="_self" class="pull-right frst_coloring_grp rght_none postitiong_grp full_calendar_contnt no_decortion whte_hvrlink"><div class="cntnt_btn fnt_thrteen_grp cntnt_btn_wdth pull-left text-right">Full calendar</div><i class="fa fa-angle-right arrw colrng_blue_grp right_arrw_icon pull-left" aria-hidden="true"></i></a>
+								</div>
+							</div>
+							<!-- / col-sm-4 -->
+						</div>
+						<!-- / event_img_grp -->
+						<div class="row automatic_hgt_minimum download_fifa_container">
+							<img src="images/download-fifa.jpg" alt="download-fifa.jpg" class="img-responsive center-block"/>
+						</div>
+						<div class="organise_committe_box automatic_hgt_minimum">
+							<div class="page-header automatic_hgt_minimum colr_brdr">
+								<h1 class="organise_committte">Organising Committees</h1>
+							</div>	
+						</div>	
+						<!-- / organise_committe_box -->
+						<div class="page-header bidding_heading automatic_hgt_minimum colr_brdr">
+							<h2 class="organise_committte">Bidding</h2>
+						</div>
+						<div class="row clearfix images_contnt automatic_hgt_minimum othr_hgt_automatic">
+							<div class="col-xs-4 frst_img_grp">
+								<h5 class="headings_images fnt_grp_ten fnt_forteen_grp colrng_grp lne_hgt_heading_images hgt_frty_one_grp text-uppercase">introduction</h5>
+								<img src="images/introduction.jpg" alt="introduction.jpg" class="img-responsive imges_grp opaq_imges" title="Generic - documents"/>
+								<div class="pull-right full_calendar ovflw_hide frst_coloring_grp wdth_min_max intro_wdth text-center">
+									<a href="#" target="_self" class="pull-right frst_coloring_grp full_calendar_contnt no_decortion whte_hvrlink"><div class="cntnt_btn fnt_thrteen_grp fnt_min_sze_grp intro_contnt pull-left text-right">Introduction</div><i class="fa fa-angle-right arrw colrng_blue_grp right_arrw_icon pull-left" aria-hidden="true"></i></a>
+								</div>
+							</div>
+							<!-- / frst_img_grp -->
+							<div class="col-xs-4 secnd_img_grp fnt_grp_ten">
+								<h5 class="headings_images fnt_grp_ten fnt_forteen_grp colrng_grp second_headng fnt_grp_ten lne_hgt_heading_images hgt_frty_one_grp text-uppercase">benefits of bidding</h5>
+								<img src="images/benefits_bidding.jpg" alt="benefits_bidding.jpg" class="img-responsive imges_grp opaq_imges" title="workers smile and give a thumbs up during the FIFA Inspection at Soccer City Stadium on September 30, 2009 in Johannesburg, South Africa"/>
+								<div class="pull-right full_calendar ovflw_hide frst_coloring_grp wdth_min_max benefits_bidding_wdth rght_none postitiong_grp text-center">
+									<a href="#" target="_self" class="pull-right frst_coloring_grp postitiong_grp no_decortion rght_none benefits_bidding_cntnt whte_hvrlink full_calendar_contnt"><div class="cntnt_btn fnt_thrteen_grp fnt_min_sze_grp benefits_bidding_btn pull-left text-right">Benefits of Bidding</div><i class="fa fa-angle-right arrw colrng_blue_grp right_arrw_icon pull-left" aria-hidden="true"></i></a>
+								</div>								
+							</div>
+							<!-- / secnd_img_grp -->
+							<div class="col-xs-4 thrd_img_grp">
+								<h5 class="headings_images fnt_grp_ten fnt_forteen_grp colrng_grp thrd_headng fnt_grp_ten lne_hgt_heading_images hgt_frty_one_grp text-uppercase">bidding process</h5>
+								<img src="images/bidding_process.jpg" alt="bidding_process.jpg" class="img-responsive othr_hgt_automatic imges_grp opaq_imges automatic_hgt_minimum benefit_image" title="Media gather for the bidding country media expo at Leeuwenhof"/>
+								<div class="pull-right full_calendar ovflw_hide wdth_min_max biddng_process_wdth frst_coloring_grp text-center">
+									<a href="#" target="_self" class="pull-right no_decortion full_calendar_contnt frst_coloring_grp whte_hvrlink"><div class="cntnt_btn fnt_thrteen_grp fnt_min_sze_grp benefits_btn_wdth pull-left text-right">Bidding Process</div><i class="fa fa-angle-right arrw colrng_blue_grp right_arrw_icon pull-left" aria-hidden="true"></i></a>
+								</div>	
+							</div>
+							<!-- / thrd_img_grp-->
+						</div>
+						<!-- / images_contnt -->
+						<h5 class="headings_images fnt_grp_ten fnt_forteen_grp colrng_grp text-uppercase">news</h5>						
+						<div class="row clearfix">
+							<div class="col-sm-9 dominique_box">
+								<img src="images/dominique.jpg" alt="dominique.jpg" class="img-responsive opaq_imges dominique_image" title="Dominique Maestracci, Canada FA President, at a press conference"/>
+								<h6 class="text-uppercase bidders_heading colrng_grp">bidders</h6>
+								<a href="#" target="_self" class="eight_fifa frst_coloring_grp">Eight FIFA tournaments awarded</a>
+								<p class="dates_content news_icon colrng_grp">Thursday 3 March 2011</p>
+							</div>
+							<!-- / dominique_box -->
+							<div class="col-sm-3 wdth_min_max side_news_events no_pddng">
+								<ul class="nav nav-pills nav-stacked news_listing">
+									<li class="wdth_min_max news_list hgt_news">
+										<a href="#" target="_self" class="news_list_hvr_contnt no_background no_brdr_radis hgt_news_list auto_marg_group">
+											<h5 class="text-uppercase headngs fnt_grp_ten lne_hgt_zro news_lists_heading colrng_grp">world football</h5>
+											<p class="bidder_contnt wdth fnt_min_sze_grp news_events_contnt pull-left">Bidders hoping to land FIFA's other World Cups</p>
+											<i class="fa fa-angle-right pull-right news_icon colrng_blue_grp right_arrw_icon" aria-hidden="true"></i>
+										</a>
+									</li>
+									<!-- / news_list -->									
+									<li class="wdth_min_max news_list mrgn_lstng news_detailing">
+										<a href="#" target="_self" class="news_list_hvr_contnt no_background no_brdr_radis hgt_news_list auto_marg_group">
+											<h5 class="text-uppercase colrng_grp headngs fnt_grp_ten lne_hgt_zro news_lists_heading">FIFA club world cup japan 2011</h5>
+											<p class="morocco_contnt wdth fnt_min_sze_grp news_events_contnt pull-left">Morocco remaining bidder to host 2013 and 2014 FIFA Club World Cups</p>
+											<i class="fa fa-angle-right pull-right colrng_blue_grp right_arrw_icon news_icon" aria-hidden="true"></i>
+										</a>
+									</li>	
+									<!-- / news_list -->
+									<li class="wdth_min_max news_list mrgn_lstng scnd_hgt canad_contnt">
+										<a href="#" target="_self" class="news_list_hvr_contnt no_background no_brdr_radis scnd_hgt_news auto_marg_group">
+											<p class="bidder_contnt wdth fnt_min_sze_grp news_events_contnt pull-left">Canada takes first steps towards 2003 FIFA World Youth Championship</p>
+											<i class="fa fa-angle-right pull-right icon_news_thrd colrng_blue_grp right_arrw_icon" aria-hidden="true"></i>
+										</a>
+									</li>	
+									<!-- / news_list -->
+									<li class="wdth_min_max news_list mrgn_lstng scnd_hgt">
+										<a href="#" target="_self" class="news_list_hvr_contnt no_background scnd_hgt_news auto_marg_group">
+											<p class="bidder_contnt wdth fnt_min_sze_grp news_events_contnt pull-left">Inspection Group for the 2006 FIFA World Cup</p>
+											<i class="fa fa-angle-right pull-right icon_news_thrd colrng_blue_grp right_arrw_icon" aria-hidden="true"></i>
+										</a>
+									</li>	
+									<!-- / news_list -->
+									<li class="wdth_min_max news_list mrgn_lstng scnd_hgt">
+										<a href="#" target="_self" class="news_list_hvr_contnt no_background scnd_hgt_news auto_marg_group">
+											<p class="bidder_contnt wdth fnt_min_sze_grp news_events_contnt pull-left">2006 FIFA World Cup: five candidates still in the running</p>
+											<i class="fa fa-angle-right pull-right icon_news_thrd colrng_blue_grp right_arrw_icon" aria-hidden="true"></i>
+										</a>
+									</li>
+									<!-- / news_list -->
+								</ul>	
+								<!-- / news_listing-->
+								<div class="pull-right full_calendar ovflw_hide frst_coloring_grp all_news_wdth all_news text-center">
+									<a href="#" target="_self" class="pull-right no_decortion whte_hvrlink frst_coloring_grp full_calendar_contnt"><div class="cntnt_btn fnt_thrteen_grp all_wdth_btn pull-left text-right">All News</div><i class="fa fa-angle-right arrw colrng_blue_grp right_arrw_icon pull-left" aria-hidden="true"></i></a>
+								</div>							
+							</div>
+							<!-- / side_news_events -->
+						</div>
+						<!-- / row -->
+						<h5 class="headings_images fnt_grp_ten fnt_forteen_grp colrng_grp text-uppercase">photos</h5>		
+						<div class="row photos_containr">
+							<div class="col-xs-2 othr_photo_wdth photos_box">
+								<img src="images/Eduardo.jpg" alt="Eduardo.jpg" title="Eduardo Li, President of Costa Rica FA" class="imges_grp opaq_imges lngth_grp img-responsive"/>
+							</div>							
+							<div class="col-xs-2 photos_wdth photos_box">
+								<img src="images/sergio.jpg" alt="sergio.jpg" title="Sergio Jadue, Chile FA President" class="imges_grp opaq_imges lngth_grp img-responsive"/>
+							</div>							
+							<div class="col-xs-2 photos_box pddng_img_grp">
+								<img src="images/saeed.jpg" alt="saeed.jpg" title="Saeed Hussain, United Arab Emirates FA Vice-President" class="imges_grp opaq_imges lngth_grp img-responsive"/>
+							</div>							
+							<div class="col-xs-2 photos_wdth photos_box pddng_othr_grp">
+								<img src="images/lutfi.jpg" alt="lutfi.jpg" title="Lutfi Aribogan, Turkey Secretary General" class="imges_grp opaq_imges lngth_grp img-responsive"/>
+							</div>							
+							<div class="col-xs-2 photos_wdth photos_box lutfi_pddng ">
+								<img src="images/peter.jpg" alt="peter.jpg" title="Peter Montopoli, Canada FA Secretary General" class="imges_grp opaq_imges lngth_grp img-responsive"/>
+							</div>							
+							<div class="col-xs-2 photos_wdth photos_box dominique_pddng">
+								<img src="images/domninque_person.jpg" alt="domninque_person.jpg" title="Dominique Maestracci, Canada FA President, at a press conference" class="imges_grp opaq_imges lngth_grp img-responsive"/>
+							</div>
+							<div class="pull-right frst_coloring_grp full_calendar ovflw_hide all_photos_wdth all_photos text-center">
+								<a href="#" target="_self" class="pull-right no_decortion frst_coloring_grp full_calendar_contnt whte_hvrlink"><div class="cntnt_btn fnt_thrteen_grp all_photos_wdth_btn pull-left text-right">All Photos</div><i class="fa fa-angle-right arrw colrng_blue_grp right_arrw_icon pull-left" aria-hidden="true"></i></a>
+							</div>		
+						</div>
+						<!-- / photos_containr -->
+					</div>
+					<!-- / inner_main_box -->
+				</div>
+				<!-- / inner_main_content -->
+				<div class="footer_contnt total_length clearfix pull-left">
+					<div class="wdth_min_max container pull-right footr_inner_content no_padng_min auto_marg_group">
+						<div class="row no_mrgn_min wdth_min_max lang_menu">
+							<div class="col-xs-2 last_grp">
+								<div class="btn-group dropup language_grp no_mrgn pull-left">
+									<button type="button" name="lang_button" id="lang_button" class="btn btn-default no_backgrnd whte_hvrlink no_bg_hvr no_brdr_radis no_background brdr_colr fnt_min_sze_grp lang_button english_btn white_colr_grp whte_focs_lnk whte_hvrlink fnt_thrteen_grp dropdown-toggle" data-toggle="dropdown"> 
+										<span class="pull-left english white_colr_grp whte_focs_lnk whte_hvrlink">English</span>
+										<i class="fa fa-angle-down pull-right white_colr_grp dwn_arrw_icon" aria-hidden="true"></i>
+									</button>
+									<ul class="dropdown-menu no_mrgn no_brdr_radis language_slcting no_mrgn" role="menu">
+										<li class="automatic_hgt_minimum drop_list"><a href="#" target="_self" class="drop_contnt fnt_thrteen_grp">English</a></li>
+										<li class="automatic_hgt_minimum drop_list"><a href="#" target="_self" class="drop_contnt fnt_thrteen_grp">Deutsch</a></li>
+										<li class="automatic_hgt_minimum drop_list"><a href="#" target="_self" class="drop_contnt fnt_thrteen_grp">Français</a></li>
+										<li class="automatic_hgt_minimum drop_list"><a href="#" target="_self" class="drop_contnt fnt_thrteen_grp">Español</a></li>
+										<li class="automatic_hgt_minimum drop_list"><a href="#" target="_self" class="drop_contnt fnt_thrteen_grp">عربي</a></li>
+									</ul>
+								</div>
+								<!-- / language_grp -->
+							</div>
+							<!-- / col-xs-2 -->
+							<div class="col-xs-8 no_pddng wdth_min_max wdth_footr_list">
+								<button type="button" name="footr_tggl_button" id="footr_tggl_button" class="navbar-toggle footr_tggl_button pull-right" data-toggle="collapse" data-target="#footr_listing">
+									<i class="fa fa-bars colrng_grp footr_tggl_icon alngmnet_grp" aria-hidden="true"></i>
+								</button>
+								<ol class="breadcrumb pull-right collapse navbar-collapse no_padng_min wdth_min_max footr_listing" id="footr_listing">
+									<li class="footr_grp_list"><a href="#" target="_self" class="fnt_frteen_sze footr_listing_contnt no_decortion fnt_thrteen_grp white_colr_grp">Terms of Service</a></li>
+									<li class="footr_grp_list privacy_grp"><a href="#" target="_self" class="fnt_frteen_sze footr_listing_contnt no_decortion fnt_thrteen_grp white_colr_grp">Privacy Policy</a></li>
+									<li class="footr_grp_list download_footr"><a href="#" target="_self" class="fnt_frteen_sze footr_listing_contnt no_decortion fnt_thrteen_grp white_colr_grp">Downloads</a></li>
+									<li class="footr_grp_list"><a href="#" target="_self" class="fnt_frteen_sze footr_listing_contnt no_decortion fnt_thrteen_grp white_colr_grp">Contact FIFA</a></li>
+									<li class="footr_grp_list"><a href="#" target="_self" class="fnt_frteen_sze footr_listing_contnt no_decortion fnt_thrteen_grp white_colr_grp">Mobile Apps</a></li>
+									<li class="footr_grp_list"><a href="#" target="_self" class="fnt_frteen_sze footr_listing_contnt no_decortion fnt_thrteen_grp white_colr_grp">Widgets</a></li>
+								</ol>
+							</div>
+							<!-- / col-xs-8 -->
+						</div>
+						<!-- / lang_menu -->
+						<div class="row no_mrgn_min copyrgt_socil clearfix ">
+							<div class="col-xs-4 wdth_min_max copyrght txt_algnment fnt_grp fnt_grp_ten no_pddng fnt_thrteen_grp pull-left">Copyright &copy;1994 - 2017 FIFA. All rights reserved</div>
+							<div class="col-xs-6 social_contnt no_pddng postitiong_grp fnt_thrteen_grp">
+								<ul class="list-inline pull-right othr_hgt_automatic social_contnt_list">
+									<li class="list-item fnt_frteen_sze social_heading no_padng_min white_colr_grp"><a href="#" class="no_decortion no_padng_min fnt_frteen_sze social_heading fnt_thrteen_grp white_colr_grp">All Social Channels</a></li>
+									<li class="list-item socil_icon_list"><a href="#" target="_self" class="icons_grp whte_hvrlink colrng_grp"><i class="fa fa-twitter postitiong_grp twttr" aria-hidden="true"></i></a></li>
+									<li class="list-item socil_icon_list"><a href="#" target="_self" class="icons_grp whte_hvrlink colrng_grp"><i class="fa fa-facebook-square othr_icons_bottom" aria-hidden="true"></i></a></li>
+									<li class="list-item socil_icon_list"><a href="#" target="_self" class="icons_grp whte_hvrlink colrng_grp"><i class="fa fa-instagram othr_icons_bottom" aria-hidden="true"></i></a></li>
+									<li class="list-item socil_icon_list"><a href="#" target="_self" class="icons_grp whte_hvrlink colrng_grp"><i class="fa fa-youtube youtube_icon" aria-hidden="true"></i></a></li>
+									<li class="list-item socil_icon_list"><a href="#" target="_self" class="icons_grp whte_hvrlink colrng_grp"><i class="fa fa-linkedin-square othr_icons_bottom" aria-hidden="true"></i></a></li>
+								</ul>
+							</div>
+							<!-- / social_contnt -->
+						</div>
+						<!-- / row -->
+						<span class="pull-right top_pge_cntnt">
+							<button type="button" name="up_button" id="up_button" class="pull-left no_bordr frst_coloring_grp transparncy_bg rght_none up_button whte_hvrlink" onclick="topFunction()">
+								<i class="fa fa-angle-up up_icon" aria-hidden="true"></i>
+							</button>
+						</span>
+						<!-- / top_pge_cntnt -->
+					</div>
+					<!-- / footr_inner_content -->
+			    </div>
+				<!-- / footer_contnt -->
+			</div>
+			<!-- / main_content -->
+		</form>
+		<!-- / form -->
+    </body>
+	<!-- / body -->
+</html>
+<!-- / html -->
